@@ -1,56 +1,57 @@
-.Time-box{
-    background-color: #f5dd02;
-    width: auto;
-    height: 65vh;
-
+.Time-box {
+  background-image: url("../public/IMG_0543.jpg");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  width: auto;
+  height: 110vh;
 }
 
-.box{
-    background-color: #0ad44d;
-    width: 70%; /* Mengatur lebar box sesuai kebutuhan */
-    height: 30vh;
-    margin: auto; /* Menengahkan box secara horizontal */
-    display: flex; /* Menggunakan flexbox */
-    justify-content: center; /* Menengahkan isi secara horizontal */
-    align-items: center; /* Menengahkan isi secara vertikal */
-    border-radius: 5px;
+.box {
+  background-color: transparent;
+  width: 70%; /* Mengatur lebar box sesuai kebutuhan */
+  height: 30vh;
+  margin: auto; /* Menengahkan box secara horizontal */
+  display: flex; /* Menggunakan flexbox */
+  justify-content: center; /* Menengahkan isi secara horizontal */
+  align-items: center; /* Menengahkan isi secara vertikal */
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
 }
 
 .my-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    background-color: #f0f0f0;
-    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0;
 }
-  
+
 .my-heading {
-    font-family: 'Bungee';
-    src: url(./Bungee.ttf) format('truetype');
-    font-size: 2.5rem;
-    color: #3f3f3f;
-    margin-top: 0;
-    margin-bottom: 10px;
-    justify-content: space-between;
-    text-align: center;
+  font-family: "Bungee";
+  src: url(./Bungee.ttf) format("truetype");
+  font-size: 2.5rem;
+  color: #3f3f3f;
+  margin-top: 0;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  text-align: center;
 }
-  
+
 .my-paragraph {
-    font-size: 1.2rem;
-    color: #f5dd02;
-    filter: blur();
-    justify-content: space-between;
-    text-align: center;
-    color: #3f3f3f;
+  font-size: 1.2rem;
+  color: #f5dd02;
+  filter: blur();
+  justify-content: space-between;
+  text-align: center;
+  color: #3f3f3f;
 }
 
-.Card-app{
-    text-align: center;
-    height: 70vh;
-    padding: 40px;
+.Card-app {
+  text-align: center;
+  height: 70vh;
+  padding: 40px;
 }
 
-.countdownTime p{
-    
+.countdownTime p {
 }

@@ -11,7 +11,6 @@ function Home() {
   console.log(mySpecificDate);
   return (
     <div>
-      <Navbar />
       <div className="Time-box">
         <div>
           <h1 className="my-heading">Welcome to SMK ANANDA FESS</h1>
@@ -25,13 +24,13 @@ function Home() {
             </span> */}
           </p>
         </div>
+        <div className="Card-app">
+          <h1>COMPETITIVE</h1>
+          <Card />
+        </div>
       </div>
-      <div className="Card-app">
-        <h1>COMPETITIVE</h1>
-        <Card />
-      </div>
+
       <Body />
-      <Footer />
     </div>
   );
 }

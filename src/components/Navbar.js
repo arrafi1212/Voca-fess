@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../Navbar.css";
 import logoIcon from "../voca.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +14,7 @@ const Navbar = () => {
     <div>
       <nav className="navbar">
         <div className="navbar-container">
-          <a href="./App" className="logo-link">
+          <a href="/" className="logo-link">
             <img src={logoIcon} alt="Logo Icon" className="logo-icon" />
           </a>
           <button
@@ -26,7 +27,7 @@ const Navbar = () => {
           </button>
           <ul className={`navbar-menu ${isOpen ? "open" : ""}`}>
             <li>
-              <a href="./App">Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
               <a href="#">Rules</a>

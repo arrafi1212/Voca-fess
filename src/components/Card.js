@@ -6,7 +6,7 @@ function Card({ title, description, image }) {
   return (
     <div className="row-card">
       <div className="card">
-        <a href="./Comp1">
+        <a style={{ textDecoration: "none" }} href="./Comp1">
           <div className="card-content">
             <h2 className="card-title">Mobile Legends</h2>
             <p className="card-description"></p>
@@ -15,7 +15,7 @@ function Card({ title, description, image }) {
       </div>
 
       <div className="card">
-        <a href="./Comp2">
+        <a style={{ textDecoration: "none" }} href="./Comp2">
           <div className="card-content">
             <h2 className="card-title">Modern Dance</h2>
             <p className="card-description"></p>
@@ -24,7 +24,7 @@ function Card({ title, description, image }) {
       </div>
 
       <div className="card">
-        <a href="./Comp3">
+        <a style={{ textDecoration: "none" }} href="./Comp3">
           <div className="card-content">
             <h2 className="card-title">Lorem Ipsum</h2>
             <p className="card-description"></p>
