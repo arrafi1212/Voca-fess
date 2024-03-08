@@ -4,23 +4,24 @@ import "../AboutUs.css";
 function AboutUs() {
   return (
     <div className="about-us">
-      <h2>About Us</h2>
+      <h2>PANDORA</h2>
       <div className="paragraphs">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec
-          nisi et nulla ullamcorper fermentum.<br></br> Aenean fermentum diam a
-          odio feugiat, id scelerisque dui condimentum.
-        </p>
-        <p>
-          Vestibulum sed nisi sed nunc convallis faucibus. In interdum arcu nec
-          metus maximus rutrum.<br></br> Nullam porttitor nibh vel feugiat
-          fermentum. Nam venenatis pharetra nulla, et posuere neque efficitur
-          eu.
-        </p>
-        <p>
-          Pellentesque habitant morbi tristique senectus et netus et malesuada
-          fames ac turpis egestas. <br></br>Sed sollicitudin, lorem at eleifend
-          varius, tortor eros rhoncus ipsum, ac convallis ipsum nisi nec felis.
+          Pandora adalah sebuah nama yang membawa makna mendalam, merujuk pada
+          hadiah atau pemberian yang mengandung banyak makna filosofis. Dalam
+          legenda kuno, Pandora dianggap sebagai perwujudan keingintahuan
+          manusia yang tak terbatas. Ketika dia membuka kotak yang diberikan
+          oleh para dewa, dia tidak hanya melepaskan berbagai macam tantangan ke
+          dunia, tetapi juga membebaskan satu-satunya hal yang tersisa: harapan.
+          Kotak Pandora yang berisi segala macam pengalaman hidup mencerminkan
+          realitas kehidupan yang tidak selalu mudah, tetapi keberadaan harapan
+          menawarkan sinar terang di tengah kegelapan. <br></br>Dalam konteks
+          ini, kisah Pandora menjadi sebuah alegori yang mengajarkan kita bahwa
+          meskipun kita mungkin dihadapkan pada tantangan yang besar, harapan
+          selalu ada sebagai pengingat bahwa setiap kesulitan memiliki potensi
+          untuk diatasi. Dengan harapan, kita mampu melihat jalan keluar dari
+          kesulitan dan menuju kepada kesuksesan serta kebahagiaan yang kita
+          dambakan.
         </p>
       </div>
     </div>

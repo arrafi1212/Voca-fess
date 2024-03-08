@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "../Navbar.css";
-import logoIcon from "../voca.png";
+import logoIcon from "../VO.png";
 import { Link } from "react-router-dom";
+import logoSekolah from "../ananda.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +16,7 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="navbar-container">
           <a href="/" className="logo-link">
-            <img src={logoIcon} alt="Logo Icon" className="logo-icon" />
+            <img src={logoSekolah} alt="Logo Icon" className="logo-icon" />
           </a>
           <button
             className={`navbar-toggle ${isOpen ? "open" : ""}`}
@@ -36,6 +37,9 @@ const Navbar = () => {
               <a href="#">About Us</a>
             </li>
           </ul>
+          <a href="/" className="logo-link1">
+            <img src={logoIcon} alt="Logo Icon" className="logo-icon1" />
+          </a>
         </div>
       </nav>
     </div>

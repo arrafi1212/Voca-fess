@@ -1,0 +1,46 @@
+.ml{
+    border: 10vh;
+    height: 200vh;
+}
+
+.ml h1{
+    background-image: url('./COMP1.png');
+    background-size: cover;
+    width: 100%; /* Mengatur lebar box sesuai kebutuhan */
+    height: 60vh;
+    margin: auto; /* Menengahkan box secara horizontal */
+    display: flex; /* Menggunakan flexbox */
+    justify-content: center; /* Menengahkan isi secara horizontal */
+    align-items: center; /* Menengahkan isi secara vertikal */
+    /* border-radius: 10px; */
+    text-align: center;
+}
+
+.ml p{
+    text-align: center;
+    padding: 5%;
+}
+
+.md{
+    border: 10vh;
+    height: 200vh;
+}
+
+.md h1{
+    background-image: url('./COMP2.png');
+    background-size: cover;
+    width: 100%; /* Mengatur lebar box sesuai kebutuhan */
+    height: 60vh;
+    margin: auto; /* Menengahkan box secara horizontal */
+    display: flex; /* Menggunakan flexbox */
+    justify-content: center; /* Menengahkan isi secara horizontal */
+    align-items: center; /* Menengahkan isi secara vertikal */
+    /* border-radius: 10px; */
+    text-align: center;
+    /* opacity: ; */
+}
+
+.md p{
+    text-align: center;
+    padding: 5%;
+}

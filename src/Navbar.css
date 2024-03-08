@@ -1,7 +1,6 @@
 .navbar {
-    background-color: #422e57;
-    color: #fff;
-    padding: 20px 0;
+    background-color: #f1b1ff;
+    padding: 3px;
 }
   
 .navbar-container {
@@ -12,14 +11,21 @@
   
 .logo {
     color: #fff;
-    margin-left: 40px;
+    margin-left: 400px;
 }
 
 .logo-icon {
-    width: 110px;
+    width: 58px;
     height: auto;
     margin-left: 40px;
 }
+
+.logo-icon1 {
+    width: 85px;
+    height: auto;
+    margin-right: 20px;
+}
+
 
 .logo-link {
     text-decoration: none;
@@ -28,7 +34,7 @@
 
   
 .navbar-menu li:hover a {
-    color: #434343;
+    color: #6b6a6a;
 }
   
 
@@ -36,20 +42,18 @@
     list-style: none;
     padding: 0;
     display: flex;
+    align-items: center;
+    margin-left: 2%;
 }
   
 .navbar-menu li {
-    margin-right: 75px;
-}
-  
-.navbar-menu li:last-child {
-    margin-right: 65px;
+    margin-right: 55px;
 }
   
 .navbar-menu a {
     color: #fff;
     text-decoration: none;
-    font-size: 1.8em;
+    font-size: 1.5em;
 }
   
 .navbar-toggle {
@@ -81,12 +85,12 @@
       border-radius: 20px;
     }
   
-    .navbar-menu.open {
-      display: flex;
-    }
-  
     .navbar-toggle {
       display: block;
+    }
+
+    .navbar-menu.open {
+        display: flex;
     }
 }
   

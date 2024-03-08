@@ -1,57 +1,79 @@
 .Time-box {
-  background-image: url("../public/IMG_0543.jpg");
+  /* background-image: url("../public/IMG_0543.jpg"); */
+  background-color: #f1b1ff;
   background-position: center;
   background-repeat: repeat;
   background-size: cover;
   width: auto;
-  height: 110vh;
+  height: 130vh;
 }
 
 .box {
-  background-color: transparent;
-  width: 70%; /* Mengatur lebar box sesuai kebutuhan */
-  height: 30vh;
+  /* background-color: rgb(209, 52, 233); */
+  width: 25%; /* Mengatur lebar box sesuai kebutuhan */
+  height: 10vh;
   margin: auto; /* Menengahkan box secara horizontal */
   display: flex; /* Menggunakan flexbox */
   justify-content: center; /* Menengahkan isi secara horizontal */
   align-items: center; /* Menengahkan isi secara vertikal */
-  border-radius: 10px;
-  backdrop-filter: blur(10px);
+  /* border-radius: 80px;
+  backdrop-filter: blur(10px); */
+  padding: 20px;
 }
 
 .my-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-items: left;
   padding: 20px;
-  background-color: #f0f0f0;
+  background-color: #e062fc;
 }
 
 .my-heading {
-  font-family: "Bungee";
+  font-family: "poppins";
   src: url(./Bungee.ttf) format("truetype");
   font-size: 2.5rem;
   color: #3f3f3f;
   margin-top: 0;
-  margin-bottom: 10px;
   justify-content: space-between;
   text-align: center;
+  animation: fadeIn 2s ease forwards;
 }
 
 .my-paragraph {
+  font-family: 'Courier New', Courier, monospace;
   font-size: 1.2rem;
   color: #f5dd02;
   filter: blur();
   justify-content: space-between;
   text-align: center;
   color: #3f3f3f;
+  animation: easeInAnimation 1s ease-in forwards;
 }
 
 .Card-app {
   text-align: center;
-  height: 70vh;
-  padding: 40px;
+  height: 100vh;
+  padding: 10px;
 }
 
-.countdownTime p {
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes easeInAnimation {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

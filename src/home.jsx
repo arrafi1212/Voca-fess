@@ -7,7 +7,7 @@ import Body from "./components/Body";
 import CountdownTimer from "./Time";
 
 function Home() {
-  const mySpecificDate = new Date(2024, 3, 14, 0, 0, 0, 0);
+  const mySpecificDate = new Date(2024, 2, 8, 15, 0, 0, 0);
   console.log(mySpecificDate);
   return (
     <div>
@@ -25,7 +25,6 @@ function Home() {
           </p>
         </div>
         <div className="Card-app">
-          <h1>COMPETITIVE</h1>
           <Card />
         </div>
       </div>
