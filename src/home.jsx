@@ -12,6 +12,7 @@ function Home() {
   return (
     <div>
       <div className="Time-box">
+        <Navbar />
         <div>
           <h1 className="my-heading">Welcome to SMK ANANDA FESS</h1>
         </div>
@@ -27,9 +28,8 @@ function Home() {
         <div className="Card-app">
           <Card />
         </div>
+        <Body />
       </div>
-
-      <Body />
     </div>
   );
 }

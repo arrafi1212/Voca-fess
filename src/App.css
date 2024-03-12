@@ -1,11 +1,10 @@
 .Time-box {
   /* background-image: url("../public/IMG_0543.jpg"); */
-  background-color: #f1b1ff;
-  background-position: center;
-  background-repeat: repeat;
+  background-image: url(../public/minimal-landscape-sunrise-4k-jy-1920x1080.jpg);
   background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
   width: auto;
-  height: 130vh;
 }
 
 .box {
@@ -32,7 +31,7 @@
   font-family: "poppins";
   src: url(./Bungee.ttf) format("truetype");
   font-size: 2.5rem;
-  color: #3f3f3f;
+  color: white;
   margin-top: 0;
   justify-content: space-between;
   text-align: center;
@@ -40,20 +39,22 @@
 }
 
 .my-paragraph {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: 1.2rem;
-  color: #f5dd02;
+
   filter: blur();
   justify-content: space-between;
   text-align: center;
-  color: #3f3f3f;
+  color: #ffffff;
   animation: easeInAnimation 1s ease-in forwards;
 }
 
 .Card-app {
   text-align: center;
-  height: 100vh;
   padding: 10px;
+}
+
+@media (max-width: 768px) {
 }
 
 @keyframes fadeIn {

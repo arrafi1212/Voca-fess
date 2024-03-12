@@ -27,7 +27,7 @@ function Footer() {
           </div>
           {/* Column3 */}
         </div>
-        <hr />
+        <hr></hr>
         <div className="row-cr">
           <p className="col-sm">
             &copy;{new Date().getFullYear()} SMK Ananda Bekasi | All rights

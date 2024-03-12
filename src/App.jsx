@@ -14,7 +14,6 @@ function App() {
   return (
     <BrowserRouter>
       <div className="content-wrapper">
-        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Comp1" element={<Comp1 />} />

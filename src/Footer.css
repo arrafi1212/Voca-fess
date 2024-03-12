@@ -14,13 +14,19 @@
   display: flex;
   gap: 700px;
 }
-
+.row-cr {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
 .col {
   justify-content: center;
   text-align: left;
   font-size: 11px;
 }
-
+hr {
+  width: 100%;
+}
 h3 {
   margin-bottom: 10px;
   font-size: 21px;
@@ -36,12 +42,6 @@ ul li {
   font-size: 13px;
 }
 
-.row hr {
-  border: none;
-  border-top: 1px solid #fff;
-  margin: 20px 0;
-}
-
 .col p {
   text-align: center;
 }
@@ -50,5 +50,9 @@ ul li {
   .col {
     flex-basis: 100%;
     margin-bottom: 20px;
+  }
+  .row {
+    display: block;
+    gap: 0;
   }
 }
