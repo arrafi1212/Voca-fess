@@ -5,13 +5,22 @@ import Footer from "./Footer.js";
 const Comp3 = () => {
   return (
     <div>
-      <div className="ml">
-        <h1>MOBILE LEGENDS</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec
-          nisi et nulla ullamcorper fermentum.<br></br> Aenean fermentum diam a
-          odio feugiat, id scelerisque dui condimentum.
-        </p>
+      <div className="cp">
+        <h1></h1>
+        <h2>PENDAFTARAN</h2>
+        <div className="page-center">
+          <div className="container">
+            <div className="text-row">
+              <span>Waktu :</span>
+              <span>00:00:00</span>
+            </div>
+            <div className="text-row">
+              <span>Tempat :</span>
+              <span>Online</span>
+            </div>
+          </div>
+        </div>
+        <div className="rules-cp"></div>
       </div>
     </div>
   );

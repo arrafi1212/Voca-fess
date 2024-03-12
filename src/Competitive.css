@@ -1,6 +1,7 @@
+/* mobile legend */
 .ml{
     border: 10vh;
-    height: 200vh;
+    height: 150vh;
 }
 
 .ml h1{
@@ -16,11 +17,37 @@
     text-align: center;
 }
 
-.ml p{
+.ml h2{
     text-align: center;
-    padding: 5%;
+    margin-top: 60px;
 }
 
+.page-center {
+    display: flex;
+    justify-content: center; /* Memposisikan ke tengah halaman secara horizontal */
+    align-items: center; /* Memposisikan ke tengah halaman secara vertikal */
+}
+  
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+  
+.text-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px; /* Atur margin antar baris */
+}
+  
+.text-row span:first-child {
+    min-width: 100px; /* Atur lebar minimum untuk label */
+    margin-right: 10px; /* Atur margin kanan antara label dan nilai */
+}
+
+
+/* modern dance */
 .md{
     border: 10vh;
     height: 200vh;
@@ -40,7 +67,80 @@
     /* opacity: ; */
 }
 
-.md p{
+.md h2{
     text-align: center;
-    padding: 5%;
+    margin-top: 60px;
+}
+
+.page-center {
+    display: flex;
+    justify-content: center; /* Memposisikan ke tengah halaman secara horizontal */
+    align-items: center; /* Memposisikan ke tengah halaman secara vertikal */
+}
+  
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+  
+.text-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px; /* Atur margin antar baris */
+}
+  
+.text-row span:first-child {
+    min-width: 100px; /* Atur lebar minimum untuk label */
+    margin-right: 10px; /* Atur margin kanan antara label dan nilai */
+}
+
+/* modern dance */
+.cp{
+    border: 10vh;
+    height: 200vh;
+}
+
+.cp h1{
+    background-image: url('./COMP3.png');
+    background-size: cover;
+    width: 100%; /* Mengatur lebar box sesuai kebutuhan */
+    height: 60vh;
+    margin: auto; /* Menengahkan box secara horizontal */
+    display: flex; /* Menggunakan flexbox */
+    justify-content: center; /* Menengahkan isi secara horizontal */
+    align-items: center; /* Menengahkan isi secara vertikal */
+    /* border-radius: 10px; */
+    text-align: center;
+    /* opacity: ; */
+}
+
+.cp h2{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.page-center {
+    display: flex;
+    justify-content: center; /* Memposisikan ke tengah halaman secara horizontal */
+    align-items: center; /* Memposisikan ke tengah halaman secara vertikal */
+}
+  
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+  
+.text-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px; /* Atur margin antar baris */
+}
+  
+.text-row span:first-child {
+    min-width: 100px; /* Atur lebar minimum untuk label */
+    margin-right: 10px; /* Atur margin kanan antara label dan nilai */
 }
