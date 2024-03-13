@@ -15,6 +15,10 @@ function Home() {
         <Navbar />
         <div>
           <h1 className="my-heading">Welcome to SMK ANANDA FESS</h1>
+          <div className="asalan">
+            <div className="loader"></div>
+            <div className="loader"></div>
+          </div>
         </div>
         <div className="box">
           <p className="my-paragraph">
