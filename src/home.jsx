@@ -7,7 +7,7 @@ import Body from "./components/Body";
 import CountdownTimer from "./Time";
 
 function Home() {
-  const mySpecificDate = new Date(2024, 2, 8, 15, 0, 0, 0);
+  const mySpecificDate = new Date(2024, 2, 12, 14, 30, 0, 0);
   console.log(mySpecificDate);
   return (
     <div>
