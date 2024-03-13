@@ -6,7 +6,10 @@ const Comp3 = () => {
   return (
     <div>
       <div className="cp">
-        <h1></h1>
+        <div className="cp-nav">
+          <Navbar />
+          <h1></h1>
+        </div>
         <h2>PENDAFTARAN</h2>
         <div className="page-center">
           <div className="container">
