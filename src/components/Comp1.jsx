@@ -21,22 +21,6 @@ const Comp1 = () => {
               <span>Tempat  :</span>
               <span>Online</span>
             </div>
-            <button className="button-click">
-              <span className="shadow"></span>
-              <span className="edge"></span>
-              <span className="front text"> Click me
-              </span>
-            </button>
-            <div className="uwaw">
-              <div className="🤚">
-                <div className="👉"></div>
-                <div className="👉"></div>
-                <div className="👉"></div>
-                <div className="👉"></div>
-                <div className="🌴"></div>		
-                <div className="👍"></div>
-              </div>
-            </div>
           </div>
         </div>
         <div className="post-rules">

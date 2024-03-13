@@ -7,7 +7,7 @@ import Body from "./components/Body";
 import CountdownTimer from "./Time";
 
 function Home() {
-  const mySpecificDate = new Date(2024, 2, 12, 14, 30, 0, 0);
+  const mySpecificDate = new Date(2024, 2, 13, 14, 30, 0, 0);
   console.log(mySpecificDate);
   return (
     <div>
@@ -15,10 +15,19 @@ function Home() {
         <Navbar />
         <div>
           <h1 className="my-heading">Welcome to SMK ANANDA FESS</h1>
+          {/* INI HAPUS AJA HAN */}
           <div className="asalan">
             <div className="loader"></div>
-            <div className="loader"></div>
+            <div class="sharingon">
+              <div class="ring">
+              <div class="to"></div>
+            <div class="to"></div>
+            <div class="to"></div>
+            <div class="circle"></div>
+            </div>
+            </div>
           </div>
+          {/* SAMPE SINI HAN */}
         </div>
         <div className="box">
           <p className="my-paragraph">
