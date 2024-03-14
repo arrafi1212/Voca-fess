@@ -9,6 +9,7 @@ import Comp2 from "./components/Comp2.js";
 import Comp3 from "./components/Comp3.js";
 import Footer from "./components/Footer.js"; // Import the Footer component
 import Navbar from "./components/Navbar.js";
+import Rules from "./components/Rules.js";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
           <Route path="/Comp1" element={<Comp1 />} />
           <Route path="/Comp2" element={<Comp2 />} />
           <Route path="/Comp3" element={<Comp3 />} />
-          <Route path="/rule" element={<rule />} />
+          <Route path="/RuleS" element={<Rules />} />
         </Routes>
         <Footer />
       </div>

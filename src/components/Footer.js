@@ -6,6 +6,16 @@ function Footer() {
     <div className="main-footer">
       <div className="container">
         <div className="row">
+          {/* <iframe
+            title="Google Map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d991.5578958294569!2d107.02181982077833!3d-6.233173098398495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698e9652540235%3A0xb2a0314f822c2de3!2sSEKOLAH%20ANANDA%20BEKASI!5e0!3m2!1sid!2sid!4v1710398814389!5m2!1sid!2sid"
+            width="600"
+            height="450"
+            style={{ border: 0 }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe> */}
           {/* Column1 */}
           <div className="col">
             <h3>SMK Ananda Bekasi</h3>

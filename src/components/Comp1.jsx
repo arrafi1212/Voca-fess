@@ -8,36 +8,24 @@ const Comp1 = () => {
       <div className="ml">
         <div className="ml-nav">
           <Navbar />
-          <h1></h1>
-        </div>
-        <h2>PENDAFTARAN</h2>
-        <div className="page-center">
-          <div className="container">
-            <div className="text-row">
-              <span>Waktu  :</span>
-              <span>00:00:00</span>
-            </div>
-            <div className="text-row">
-              <span>Tempat  :</span>
-              <span>Online</span>
-            </div>
-          </div>
+          <div className="lyr-dpn-ml"></div>
         </div>
         <div className="post-rules">
-          <div className="rules">
+          <div className="rls">
+            <h1>RULES MOBILE LEGEND</h1>
             <h2>A. PENGERTIAN</h2>
-            <p>1.Peserta adalah kelompok yang terdiri dari 5 orang pemain utama dan 2 orang pemain cadangan yang telah memenuhi persyaratan peserta<br></br>2.Peserta adalah siswa SMP/SMA/SMK/MTs sederajat</p>
+            <p>1.Peserta adalah kelompok yang terdiri dari 5 orang pemain utama dan 2 orang pemain cadangan yang telah memenuhi persyaratan peserta <br /><br /> 2.Peserta adalah siswa SMP/SMA/SMK/MTs sederajat</p>
             <h2>B. PERSYARATAN PESERTA</h2>
-            <p>1.Terbuka untuk siswa SMP/SMA/SMK/MTs sederajat lingkup kota dan kabupaten Bekasi.<br></br><br></br>
-            2.Masing masing sekolah hanya bisa mengirimkan maksimal 2 team.<br></br><br></br>
-            3.Pendaftaran hanya dibuka untuk 32 team tercepat yang sudah mengisi link g-form pendaftaran.<br></br><br></br>
-            4.Peserta wajib membayar WO sebesar Rp.50.000 dan biaya pendaftaran Rp.150.000.<br></br><br></br>
-            5.Peserta wajib melampirkan kartu pelajar, pas foto 3x4 dan nama lengkap pada saat mengisi link pendaftaran.<br></br><br></br>
+            <p>1.Terbuka untuk siswa SMP/SMA/SMK/MTs sederajat lingkup kota dan kabupaten Bekasi.<br /><br />
+            2.Masing masing sekolah hanya bisa mengirimkan maksimal 2 team.<br /><br />
+            3.Pendaftaran hanya dibuka untuk 32 team tercepat yang sudah mengisi link g-form pendaftaran.<br /><br />
+            4.Peserta wajib membayar WO sebesar Rp.50.000 dan biaya pendaftaran Rp.150.000.<br /><br />
+            5.Peserta wajib melampirkan kartu pelajar, pas foto 3x4 dan nama lengkap pada saat mengisi link pendaftaran. <br /><br />
             6.Satu tim berisikan peserta peserta yang berasal dari sekolah yang sama.
             </p>
             <h2>C. ATURAN LOMBA</h2>
             <p>
-            1.Peserta WAJIB mengikuti Technical Meeting. Sekolah tidak diperbolehkan melakukan pergantian peserta lomba sebelum H-5 Technical Meeting.<br></br><br></br>
+            1.Peserta WAJIB mengikuti Technical Meeting. Sekolah tidak diperbolehkan melakukan pergantian peserta lomba sebelum H-5 Technical Meeting.<br /><br />
             2.Panitia berhak menghentikan pertandingan kapanpun saat ada kesalahan permainan.<br></br>
             <br></br>3.Jika ada kendala jaringan atau hal hal yang tidak terprediksi maka akan diberikan kompensasi pause untuk masing-masing tim selama 3 kali × 2 menit.<br></br>
             <br></br>4.Saat salah satu tim menandakan  SURREND/MENYERAH, maka tim yang menang akan langsung bermain ke pertandingan selanjutnya dan tim yang melakukan SURRENDER akan dinyatakan kalah pada match ke-2 pertandingan.<br></br>
@@ -79,9 +67,27 @@ const Comp1 = () => {
             </p>
             <h2>E. DOKUMENTASI ACARA</h2>
             <p>
-            1.Pertandingan akan disiarkan secara Live Streaming di Youtube:<br></br><br></br>
+            1.Pertandingan akan disiarkan secara Live Streaming di Youtube:<br /><br />
             2.Score game akan di publish di Instagram:@
             </p>
+          </div>
+        </div>
+        <h2>PENDAFTARAN</h2>
+        <div className="page-center">
+          <div className="container">
+            <div className="text-row">
+                <span>Biaya Pendaftaran :</span>
+                <span>-- Ribu</span>
+              </div>
+              <div className="text-row">
+                <span>WO/Jaminan :</span>
+                <span>-- Ribu</span>
+            </div>
+            <button className="button-click">
+              <span class="shadow"></span>
+              <span class="edge"></span>
+              <span class="front text"> Daftar Now!!</span>
+            </button>
           </div>
         </div>
       </div>

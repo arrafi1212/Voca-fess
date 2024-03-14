@@ -1,7 +1,7 @@
 /* mobile legend */
 .ml{
+    background-color: #E8751A;
     border: 10vh;
-    height: 346vh;
 }
 
 .ml-nav{
@@ -11,7 +11,7 @@
     width: auto;
 }
 
-.ml h1{
+.lyr-dpn-ml{
     width: 100%; /* Mengatur lebar box sesuai kebutuhan */
     height: 60vh;
     margin: auto; /* Menengahkan box secara horizontal */
@@ -26,10 +26,12 @@
     text-align: center;
 }
 
+/* INI UNTUK TANGGAL DAN TEMPAT */
 .page-center {
     display: flex;
     justify-content: center; /* Memposisikan ke tengah halaman secara horizontal */
     align-items: center; /* Memposisikan ke tengah halaman secara vertikal */
+    padding-bottom: 70px;
 }
   
 .container {
@@ -49,26 +51,15 @@
     min-width: 100px; /* Atur lebar minimum untuk label */
     margin-right: 10px; /* Atur margin kanan antara label dan nilai */
 }
-.post-rules {
-    background-color: aqua;
-    display: flex;
-    justify-content: center; /* Memposisikan konten ke tengah halaman */
-    margin-top:30px ;
-}
-  
-.rules {
-    max-width: 90rem; /* Misalnya, sesuaikan dengan lebar yang diinginkan */
-    width: 80%;
-    text-align: left; /* Rata kiri teks */
-}
+
 
 
 
 
 /* modern dance */
 .md{
+    background-color: #E8751A;
     border: 10vh;
-    height: 325vh;
 }
 
 .md-nav{
@@ -78,7 +69,7 @@
     width: auto;
 }
 
-.md h1{
+.lyr-dpn-md{
     width: 100%; /* Mengatur lebar box sesuai kebutuhan */
     height: 60vh;
     margin: auto; /* Menengahkan box secara horizontal */
@@ -95,34 +86,11 @@
     margin-top: 60px;
 }
 
-.page-center {
-    display: flex;
-    justify-content: center; /* Memposisikan ke tengah halaman secara horizontal */
-    align-items: center; /* Memposisikan ke tengah halaman secara vertikal */
-}
-  
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-  
-.text-row {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-bottom: 10px; /* Atur margin antar baris */
-}
-  
-.text-row span:first-child {
-    min-width: 100px; /* Atur lebar minimum untuk label */
-    margin-right: 10px; /* Atur margin kanan antara label dan nilai */
-}
 
-/* modern dance */
+/* cosplay */
 .cp{
+    background-color: #E8751A;
     border: 10vh;
-    height: 197vh;
 }
 
 .cp-nav{
@@ -132,7 +100,7 @@
     width: auto;
 }
 
-.cp h1{
+.lyr-dpn-cp{
     width: 100%; /* Mengatur lebar box sesuai kebutuhan */
     height: 60vh;
     margin: auto; /* Menengahkan box secara horizontal */
@@ -149,28 +117,30 @@
     margin-top: 60px;
 }
 
-.page-center {
+
+
+/* INI UNTUK RULESNYA */
+.post-rules {
+    background-color: #FDA403;
+    box-shadow: 0px 0px 5px 5px #805404;
     display: flex;
-    justify-content: center; /* Memposisikan ke tengah halaman secara horizontal */
-    align-items: center; /* Memposisikan ke tengah halaman secara vertikal */
+    justify-content: center; /* Memposisikan konten ke tengah halaman */
+    padding-bottom: 50px;
+    margin-bottom: 60px;
+    border-radius: 0 0 60px 60px;
 }
   
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+.rls {
+    max-width: 90rem; /* Misalnya, sesuaikan dengan lebar yang diinginkan */
+    width: 80%;
+    text-align: left; /* Rata kiri teks */
 }
 
-.text-row {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-bottom: 10px; /* Atur margin antar baris */
-}
-  
-.text-row span:first-child {
-    min-width: 100px; /* Atur lebar minimum untuk label */
-    margin-right: 10px; /* Atur margin kanan antara label dan nilai */
+.rls h1{
+    text-align: left;
+    padding: 30px;
+    text-align: center;
+    font-size: 3rem;
 }
 
 /* Button click */

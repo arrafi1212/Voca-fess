@@ -8,33 +8,16 @@ const Comp2 = () => {
       <div className="md">
         <div className="md-nav">
           <Navbar />
-          <h1></h1>
-        </div>
-        <h2>PENDAFTARAN</h2>
-        <div className="page-center">
-          <div className="container">
-            <div className="text-row">
-              <span>Waktu :</span>
-              <span>00:00:00</span>
-            </div>
-            <div className="text-row">
-              <span>Tempat :</span>
-              <span>Online</span>
-            </div>
-            <button className="button-click">
-              <span class="shadow"></span>
-              <span class="edge"></span>
-              <span class="front text"> Click me</span>
-            </button>
-          </div>
+          <div className="lyr-dpn-md"></div>
         </div>
         <div className="post-rules">
-          <div className="rules">
+          <div className="rls">
+            <h1>RULES MODERN DANCE</h1>
             <h2>A. PERSYARATAN PESERTA</h2>
             <p>
               1. Peserta lomba merupakan siswa SMP dan SMA/K dan dibuktikan
-              dengan kartu pelajar <br></br>
-              <br></br>
+              dengan kartu pelajar <br />
+              <br />
               2. Penggunaan nama tim peserta lomba MD tidak diperkenankan
               menggunakan nama tim yang mengandung unsur SARA dan seksualitas.
               Jika dilanggar, maka tim akan DIDISKUALIFIKASI <br></br>
@@ -85,11 +68,6 @@ const Comp2 = () => {
               peraturan yang sudah diinformasikan dalam Technical Meeting
               tersebut
             </p>
-            <h2>BIAYA</h2>
-            <p>
-              • Biaya Pendaftaran : 200 ribu
-              <br></br>• WO/Jaminan : 50 ribu
-            </p>
             <h2>ASPEK PENILAIAN</h2>
             <h3>Ketentuan Pemenang:</h3>
             <p>
@@ -110,6 +88,24 @@ const Comp2 = () => {
               Prepare: 1 menit/tim<br></br> Perform: 3-4 menit<br></br> Overall
               Time: 60 Menit
             </p>
+          </div>
+        </div>
+        <h2>PENDAFTARAN</h2>
+        <div className="page-center">
+          <div className="container">
+            <div className="text-row">
+              <span>Biaya Pendaftaran :</span>
+              <span>200 Ribu</span>
+            </div>
+            <div className="text-row">
+              <span>WO/Jaminan :</span>
+              <span>50 Ribu</span>
+            </div>
+            <button className="button-click">
+              <span class="shadow"></span>
+              <span class="edge"></span>
+              <span class="front text"> Daftar Now!!</span>
+            </button>
           </div>
         </div>
       </div>
