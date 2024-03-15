@@ -5,7 +5,7 @@ import Comp1 from "./Comp1";
 function Card({ title, description, image }) {
   return (
     <div className="row-card">
-      <div className="card">
+      <div className="card-a">
         <a style={{ textDecoration: "none" }} href="./Comp1">
           <div className="card-content">
             <h2 className="card-title"></h2>
@@ -15,7 +15,7 @@ function Card({ title, description, image }) {
         </a>
       </div>
 
-      <div className="card">
+      <div className="card-a">
         <a style={{ textDecoration: "none" }} href="./Comp2">
           <div className="card-content">
             <h2 className="card-title"></h2>
@@ -25,7 +25,7 @@ function Card({ title, description, image }) {
         </a>
       </div>
 
-      <div className="card">
+      <div className="card-a">
         <a style={{ textDecoration: "none" }} href="./Comp3">
           <div className="card-content">
             <h2 className="card-title"></h2>

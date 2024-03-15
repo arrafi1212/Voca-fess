@@ -5,7 +5,7 @@
   gap: 50px;
 }
 
-.card {
+.card-a {
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -43,7 +43,7 @@
   text-align: center;
 }
 
-.card:hover .card-content {
+.card-a:hover .card-content {
   transform: translateY(-30px); /* Geser konten keluar sedikit saat hover */
 }
 

@@ -26,13 +26,13 @@ function Footer() {
             </ul>
           </div>
           {/* Column2 */}
-          <div className="col">
+          <div style={{ textAlign: "RIght" }} className="col">
             <h3>Contact Us</h3>
             <ul className="list-unstyled">
-              <li>Instagram : @smk_ananda</li>
-              <li>Facebook : @smk_ananda</li>
-              <li>Tiktok : @smkananda</li>
-              <li>Youtube : @smkananda</li>
+              <li>@smk_ananda : Instagram </li>
+              <li>@smk_ananda : Facebook</li>
+              <li>@smkananda : Tiktok</li>
+              <li>@smkananda : Youtube</li>
             </ul>
           </div>
           {/* Column3 */}

@@ -1,6 +1,17 @@
+* {
+  font-family: Poppins;
+  margin: 0;
+  padding: 0;
+}
+
 .Time-box {
   /* background-image: url("../public/IMG_0543.jpg"); */
-  background-image: url(../public/minimal-landscape-sunrise-4k-jy-1920x1080.jpg);
+  background: rgb(119, 67, 219);
+  background: linear-gradient(
+    90deg,
+    rgba(119, 67, 219, 1) 15%,
+    rgba(255, 137, 17, 1) 99%
+  );
   background-size: cover;
   background-repeat: repeat;
   background-position: center;
@@ -8,16 +19,16 @@
 }
 
 .box {
-  /* background-color: rgb(209, 52, 233); */
-  width: 25%; /* Mengatur lebar box sesuai kebutuhan */
-  height: 10vh;
+  width: 30%; /* Mengatur lebar box sesuai kebutuhan */
   margin: auto; /* Menengahkan box secara horizontal */
   display: flex; /* Menggunakan flexbox */
   justify-content: center; /* Menengahkan isi secara horizontal */
   align-items: center; /* Menengahkan isi secara vertikal */
-  /* border-radius: 80px;
-  backdrop-filter: blur(10px); */
-  padding: 20px;
+  background-color: rgba(255, 137, 17, 1);
+  border-radius: 20px;
+  padding: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .my-container {
@@ -28,9 +39,6 @@
 }
 
 .my-heading {
-  font-family: "poppins";
-  src: url(./Bungee.ttf) format("truetype");
-  font-size: 2.5rem;
   color: white;
   margin-top: 0;
   justify-content: space-between;
@@ -45,7 +53,7 @@
 /* INI YANG HARUS DIHAPUS */
 /* INI YANG HARUS DIHAPUS */
 
-.asalan{
+.asalan {
   align-items: center;
   margin-left: 43.5%;
   display: flex;
@@ -63,7 +71,7 @@
 }
 
 .loader::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: -50%;
@@ -77,7 +85,7 @@
 }
 
 .loader::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 20px;
   bottom: 15px;
@@ -89,55 +97,82 @@
   animation: eyeMove 3s infinite;
 }
 
+/* Jumbotron Section */
+.jumbotron {
+  background-image: url(../public/3551645.png);
+  background-size: cover;
+  height: 70vh;
+  background-position: center;
+  margin-bottom: 30px;
+}
+.jumbotron-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-top: 7rem;
+  padding-bottom: 12rem;
+  margin-left: 5rem;
+}
+.jumbo-button {
+  background-color: rgba(255, 137, 17, 1);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
 @keyframes eyeShade {
   0% {
-    transform: translateY(0)
+    transform: translateY(0);
   }
 
   20% {
-    transform: translateY(5px)
+    transform: translateY(5px);
   }
 
-  40% , 50% {
-    transform: translateY(-5px)
+  40%,
+  50% {
+    transform: translateY(-5px);
   }
 
   60% {
-    transform: translateY( -8px)
+    transform: translateY(-8px);
   }
 
   75% {
-    transform: translateY( 5px)
+    transform: translateY(5px);
   }
 
   100% {
-    transform: translateY(10px)
+    transform: translateY(10px);
   }
 }
 
 @keyframes eyeMove {
   0% {
-    transform: translate(0 , 0)
+    transform: translate(0, 0);
   }
 
   20% {
-    transform: translate(0px , 5px)
+    transform: translate(0px, 5px);
   }
 
-  40% , 50% {
-    transform: translate(0px , -5px)
+  40%,
+  50% {
+    transform: translate(0px, -5px);
   }
 
   60% {
-    transform: translate(-10px , -5px)
+    transform: translate(-10px, -5px);
   }
 
   75% {
-    transform: translate(-20px , 5px)
+    transform: translate(-20px, 5px);
   }
 
   100% {
-    transform: translate(0 , 10px)
+    transform: translate(0, 10px);
   }
 }
 
@@ -156,15 +191,19 @@
   top: 50%;
   width: 3.5em;
   height: 3.5em;
-  border: 4px solid rgb(110, 13 ,13 ,0.5);
-  transform: translate(-50%,-50%);
+  border: 4px solid rgb(110, 13, 13, 0.5);
+  transform: translate(-50%, -50%);
 }
 
-.sharingon, .ring, .to,.circle {
+.sharingon,
+.ring,
+.to,
+.circle {
   border-radius: 50%;
 }
 
-.to,.circle {
+.to,
+.circle {
   position: absolute;
   content: "";
   width: 0.9em;
@@ -205,7 +244,7 @@
 .circle {
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   box-shadow: 0 0 20px 1px;
   width: 1em;
   height: 1em;
