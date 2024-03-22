@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./App.css";
+import "./styles/App.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Card from "./components/Card";
@@ -23,15 +23,13 @@ function Home() {
               }}
               className="my-heading"
             >
-              WELCOME TO SMK <br></br> ANANDA FESS
+              WELCOME TO SMK <br></br> ANANDA FEST
             </h1>
             <button className="jumbo-button">Learn More</button>
           </div>
         </div>
         <div>
-          <h1 style={{ fontSize: "48px", textAlign: "center", color: "white" }}>
-            ARE YOU READY FOR THE COMPETITION ?
-          </h1>
+          <h1 className="title-comp">ARE YOU READY FOR THE COMPETITION ?</h1>
           <div className="box">
             <p className="my-paragraph">
               <CountdownTimer endDate={mySpecificDate} />

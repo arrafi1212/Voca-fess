@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import "../Navbar.css";
-import logoIcon from "../VO.png";
+import "../styles/Navbar.css";
+import logoIcon from "../assets/VO.png";
 import { Link } from "react-router-dom";
-import logoSekolah from "../ananda.png";
+import logoSekolah from "../assets/ananda.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,9 +30,11 @@ const Navbar = () => {
             <li>
               <a href="/">Home</a>
             </li>
+
             <li>
               <a href="./Rules">Rules</a>
             </li>
+
             <li>
               <a href="#">About Us</a>
             </li>

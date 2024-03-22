@@ -1,4 +1,4 @@
-import "../Rules.css";
+import "../styles/Rules.css";
 import Navbar from "./Navbar.js";
 
 const Rules = () => {

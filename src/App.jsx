@@ -1,6 +1,6 @@
 import React from "react";
-import "./App.css";
-import "./Footer.css"; // Import the Footer.css file
+import "./styles/App.css";
+import "./styles/Footer.css"; // Import the Footer.css file
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
 import Home from "./home.jsx";

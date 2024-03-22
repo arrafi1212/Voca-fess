@@ -1,0 +1,45 @@
+.all-page {
+  background-image: radial-gradient(circle, #9f70fd, #7f27ff);
+  padding-bottom: 60px;
+}
+
+.mobile-l {
+  background-color: #ff8911;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+  margin: 60px;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.mobile-l h1 {
+  text-align: center;
+}
+
+.modern-d {
+  background-color: #ff8911;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+  margin: 60px;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.modern-d h1 {
+  text-align: center;
+}
+
+.Cos-p {
+  background-color: #ff8911;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  margin-right: 60px;
+  margin-left: 60px;
+  border-radius: 30px;
+}
+
+.Cos-p h1 {
+  text-align: center;
+}
+
+.navbar-rls {
+  box-shadow: 0px 0px 5px 5px #6420c9;
+}

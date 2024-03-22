@@ -1,4 +1,4 @@
-import "../Competitive.css";
+import "../styles/Competitive.css";
 import Navbar from "./Navbar.js";
 import Footer from "./Footer.js";
 

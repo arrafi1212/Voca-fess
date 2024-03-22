@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./App.css";
+import "./styles/App.css";
 
 const CountdownTimer = ({ endDate }) => {
   const timeNow = new Date();
