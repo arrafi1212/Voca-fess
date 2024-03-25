@@ -1,10 +1,10 @@
 import React from "react";
-import "../styles/AboutUs.css";
+import "../styles/Body.css";
 
-function AboutUs() {
+function Body() {
   return (
-    <div className="about-us">
-      <div className="about-box">
+    <div className="body-page">
+      <div className="body-box">
         <h2>PANDORA</h2>
         <div className="paragraphs">
           <p>
@@ -30,4 +30,4 @@ function AboutUs() {
   );
 }
 
-export default AboutUs;
+export default Body;

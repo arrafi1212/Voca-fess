@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../styles/Navbar.css";
-import logoIcon from "../assets/VO.png";
 import { Link } from "react-router-dom";
+import logoIcon from "../assets/VO.png";
 import logoSekolah from "../assets/ananda.png";
 
 const Navbar = () => {
@@ -36,7 +36,7 @@ const Navbar = () => {
             </li>
 
             <li>
-              <a href="#">About Us</a>
+              <a href="./AboutUs">About Us</a>
             </li>
           </ul>
           <a href="/" className="logo-link1">

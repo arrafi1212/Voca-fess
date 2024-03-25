@@ -95,6 +95,12 @@
   }
 }
 
+@media (max-width: 540px) {
+  .navbar-menu {
+    left: 38.5%;
+  }
+}
+
 @media (max-width: 450px) {
   .navbar-menu {
     left: 34.5%;
@@ -110,3 +116,11 @@
     left: 32%;
   }
 }
+
+@media (max-width: 280px) {
+  .navbar-menu {
+    left: 27%;
+    top: 14%;
+  }
+}
+

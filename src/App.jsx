@@ -10,6 +10,8 @@ import Comp3 from "./components/Comp3.js";
 import Footer from "./components/Footer.js"; // Import the Footer component
 import Navbar from "./components/Navbar.js";
 import Rules from "./components/Rules.js";
+import AboutUs from "./components/AboutUs.js";
+import Body from "./components/Body.js";
 
 function App() {
   return (
@@ -20,7 +22,8 @@ function App() {
           <Route path="/Comp1" element={<Comp1 />} />
           <Route path="/Comp2" element={<Comp2 />} />
           <Route path="/Comp3" element={<Comp3 />} />
-          <Route path="/RuleS" element={<Rules />} />
+          <Route path="/Rules" element={<Rules />} />
+          <Route path="/AboutUs" element={<AboutUs />} />
         </Routes>
         <Footer />
       </div>

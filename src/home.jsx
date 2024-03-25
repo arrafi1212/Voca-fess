@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Card from "./components/Card";
 import Body from "./components/Body";
 import CountdownTimer from "./Time";
+import { Link } from 'react-router-dom';
 
 function Home() {
   const mySpecificDate = new Date(2024, 2, 13, 14, 30, 0, 0);
@@ -25,7 +26,10 @@ function Home() {
             >
               WELCOME TO SMK <br></br> ANANDA FEST
             </h1>
-            <button className="jumbo-button">Learn More</button>
+            <Link to="./AboutUs">
+              <button className="jumbo-button">Learn More</button>
+            </Link>
+            
           </div>
         </div>
         <div>
