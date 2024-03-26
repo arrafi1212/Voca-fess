@@ -4,15 +4,12 @@
   border: 10vh;
 }
 
-.ml-nav {
+.lyr-dpn-ml {
   background-image: url("../../public/COMP1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   width: auto;
-}
-
-.lyr-dpn-ml {
   width: 100%; /* Mengatur lebar box sesuai kebutuhan */
   height: 60vh;
   margin: auto; /* Menengahkan box secara horizontal */
@@ -59,14 +56,11 @@
   border: 10vh;
 }
 
-.md-nav {
+.lyr-dpn-md {
   background-image: url("../../public/COMP2.png");
   background-size: cover;
   background-position: center;
   width: auto;
-}
-
-.lyr-dpn-md {
   width: 100%; /* Mengatur lebar box sesuai kebutuhan */
   height: 60vh;
   margin: auto; /* Menengahkan box secara horizontal */

@@ -8,7 +8,7 @@ import CountdownTimer from "./Time";
 import { Link } from 'react-router-dom';
 
 function Home() {
-  const mySpecificDate = new Date(2024, 2, 13, 14, 30, 0, 0);
+  const mySpecificDate = new Date(2024, 3, 15, 14, 0, 0, 0);
   console.log(mySpecificDate);
   return (
     <div>
