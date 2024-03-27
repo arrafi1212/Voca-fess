@@ -289,6 +289,12 @@
   text-align: center;
 }
 
+@media (max-width: 951px) {
+  .my-heading{
+    font-size: 70px !important;
+  }
+}
+
 @media (max-width: 768px) {
   .my-heading {
     font-size: 50px !important;
