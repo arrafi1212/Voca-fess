@@ -1,6 +1,6 @@
 /* mobile legend */
 .ml {
-  background-color: #e8751a;
+  background-color: #8c739b;
   border: 10vh;
 }
 
@@ -22,6 +22,7 @@
 
 .ml h2 {
   text-align: center;
+  color:#8c739b; 
 }
 
 /* INI UNTUK TANGGAL DAN TEMPAT */
@@ -43,6 +44,7 @@
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 10px; /* Atur margin antar baris */
+  color:#47275a;
 }
 
 .text-row span:first-child {
@@ -52,7 +54,7 @@
 
 /* modern dance */
 .md {
-  background-color: #e8751a;
+  background-color: #8c739b;
   border: 10vh;
 }
 
@@ -75,6 +77,7 @@
 .md h2 {
   text-align: center;
   margin-top: 60px;
+  color:#8c739b;
 }
 
 /* cosplay */
@@ -102,13 +105,14 @@
 
 /* INI UNTUK RULESNYA */
 .post-rules {
-  background-color: #fda403;
-  box-shadow: 0px 0px 5px 5px #805404;
+  background-color: #57356a;
+  box-shadow: 0px 0px 5px 5px #41125c;
   display: flex;
   justify-content: center; /* Memposisikan konten ke tengah halaman */
   padding-bottom: 50px;
   margin-bottom: 60px;
-  border-radius: 0 0 60px 60px;
+  border-radius: 0 0 20px 20px;
+  color: #aa98b5;
 }
 
 .rls {
@@ -211,4 +215,9 @@ button:active .shadow {
 
 button:focus:not(:focus-visible) {
   outline: none;
+}
+
+
+.daftar h2{
+  color: #47275a;
 }

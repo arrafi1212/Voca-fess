@@ -9,13 +9,16 @@
   text-align: center;
   margin-bottom: 20px;
 }
+
 .body-box {
-  background-color: rgba(255, 137, 17, 1);
+  background-color: #FFD740;
   padding: 20px;
   align-items: center;
   color: white;
   border-radius: 10px;
+  color: #57356a;
 }
+
 .paragraphs {
   max-width: 800px;
   margin: 0 auto;
@@ -27,6 +30,7 @@
   line-height: 1.5;
   margin-bottom: 20px;
   animation: SlideIn 1s ease-in;
+  color: #57356a;
 }
 
 @media screen and (max-width: 768px) {

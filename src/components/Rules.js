@@ -119,8 +119,9 @@ const Rules = () => {
             <h3>E. DOKUMENTASI ACARA</h3>
             <p>
               1. Pertandingan akan disiarkan secara Live Streaming di Youtube:
+              @smk_ananda
               <br />
-              2. Score game akan di publish di Instagram:@
+              2. Score game akan di publish di Instagram: @smk_ananda
             </p>
           </div>
           <div className="modern-d">

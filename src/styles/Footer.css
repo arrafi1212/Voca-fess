@@ -1,12 +1,12 @@
 .main-footer {
-  background-color: rgba(255, 137, 17, 1);
+  background-color: #FFC400;
   color: #fff;
   padding: 20px 0;
   text-align: center;
 }
 /* NEW CODE */
 .footer {
-  background-color: rgba(255, 137, 17, 1);
+  background-color: #FFC400;
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -15,6 +15,7 @@
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 20px;
+  color: black;
 }
 .account {
   display: flex;
@@ -29,6 +30,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  color: #000;
 }
 /* NEW CODE */
 .container {

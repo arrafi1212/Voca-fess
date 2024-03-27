@@ -3,6 +3,12 @@ import Navbar from "./Navbar.js";
 import Footer from "./Footer.js";
 
 const Comp2 = () => {
+  const handleButtonClick = () => {
+    // Redirect to the Google Form URL when the button is clicked
+    window.location.href =
+      "https://docs.google.com/forms/d/e/1FAIpQLSe8A5pfiEDfJ_b4GxhjBHUcZ2HS3yN6K2IWZjlYOCsJ1SHvxg/viewform?usp=pp_url";
+  };
+
   return (
     <div>
       <div className="md">
@@ -90,7 +96,9 @@ const Comp2 = () => {
             </p>
           </div>
         </div>
-        <h2>PENDAFTARAN</h2>
+        <div className="daftar">
+          <h2>PENDAFTARAN</h2>
+        </div>
         <div className="page-center">
           <div className="container">
             <div className="text-row">
@@ -101,7 +109,7 @@ const Comp2 = () => {
               <span>WO/Jaminan :</span>
               <span>50 Ribu</span>
             </div>
-            <button className="button-click">
+            <button className="button-click" onClick={handleButtonClick}>
               <span class="shadow"></span>
               <span class="edge"></span>
               <span class="front text"> Daftar Now!!</span>

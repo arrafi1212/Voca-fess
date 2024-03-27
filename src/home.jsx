@@ -33,7 +33,7 @@ function Home() {
           </div>
         </div>
         <div>
-          <h1 className="title-comp">ARE YOU READY FOR THE COMPETITION ?</h1>
+          <h1 className="title-comp" style={{color: "#aa98b5"}}>ARE YOU READY FOR THE COMPETITION ?</h1>
           <div className="box">
             <p className="my-paragraph">
               <CountdownTimer endDate={mySpecificDate} />
@@ -41,10 +41,10 @@ function Home() {
           </div>
         </div>
         <div className="Card-app">
-          <h1 style={{ fontSize: "48px", textAlign: "center", color: "white" }}>
+          <h1 style={{ fontSize: "48px", textAlign: "center", color: "#aa98b5" }}>
             COMPETITION
           </h1>
-          <p style={{ color: "white", marginBottom: "20px" }}>
+          <p style={{ color: "#aa98b5", marginBottom: "20px" }}>
             Register here and be a winner
           </p>
           <Card />

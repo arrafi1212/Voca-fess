@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgba(255, 137, 17, 1);
+  background-color: #FFC400;
 }
 
 .logo {
@@ -44,7 +44,7 @@
 
 .navbar-menu a {
   font-weight: bold;
-  color: #fff;
+  color: #000000;
   text-decoration: none;
   font-size: 1.5em;
 }
@@ -68,7 +68,7 @@
   .navbar-menu {
     display: none;
     flex-direction: column;
-    background-color: rgb(163, 67, 241);
+    background-color: #FFD740;
     box-shadow: 1px 2px 12px 0px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 1px 2px 12px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 1px 2px 12px 0px rgba(0, 0, 0, 0.75);
@@ -92,6 +92,18 @@
 
   .navbar-menu.open {
     display: flex;
+  }
+}
+
+@media (max-width: 766px) {
+  .navbar-menu {
+    left: 41.5%;
+  }
+}
+
+@media (max-width: 630px) {
+  .navbar-menu {
+    left: 39.5%;
   }
 }
 

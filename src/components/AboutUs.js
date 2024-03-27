@@ -11,7 +11,7 @@ const pageUs = () => {
         <div className="bg-about">
           <div className="About-pandora">
             <h1>PANDORA</h1>
-            <h3>(blablablablabla)</h3>
+            <h3>(Play And Dance in Non-academic Raise)</h3>
             <p>
               Pandora adalah sebuah nama yang membawa makna mendalam, merujuk
               pada hadiah atau pemberian yang mengandung banyak makna filosofis.

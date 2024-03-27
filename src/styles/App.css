@@ -6,12 +6,7 @@
 
 .Time-box {
   /* background-image: url("../public/IMG_0543.jpg"); */
-  background: rgb(119, 67, 219);
-  background: linear-gradient(
-    90deg,
-    rgba(119, 67, 219, 1) 15%,
-    rgba(255, 137, 17, 1) 99%
-  );
+  background: #57356a;
   background-size: cover;
   background-repeat: repeat;
   background-position: center;
@@ -24,7 +19,7 @@
   display: flex; /* Menggunakan flexbox */
   justify-content: center; /* Menengahkan isi secara horizontal */
   align-items: center; /* Menengahkan isi secara vertikal */
-  background-color: rgba(255, 137, 17, 1);
+  background-color: #FFD740;
   border-radius: 20px;
   padding: 50px;
   margin-top: 20px;
@@ -35,7 +30,7 @@
   display: flex;
   align-items: left;
   padding: 20px;
-  background-color: #e062fc;
+  background-color: #57356a;
 }
 
 .my-heading {
@@ -44,6 +39,10 @@
   justify-content: space-between;
   text-align: center;
   animation: fadeIn 2s ease forwards;
+}
+
+.countdownTime h1{
+  color: #57356a;
 }
 
 /* INI YANG HARUS DIHAPUS */
@@ -99,7 +98,7 @@
 
 /* Jumbotron Section */
 .jumbotron {
-  background-image: url(../../public/3551645.png);
+  background-image: url(../../public/Header-Utama.png);
   background-size: cover;
   height: 70vh;
   background-position: center;
@@ -114,8 +113,8 @@
   margin-left: 2.5rem;
 }
 .jumbo-button {
-  background-color: rgba(255, 137, 17, 1);
-  color: white;
+  background-color: #FFD740;
+  color: #57356a;
   padding: 15px 20px;
   border-radius: 5px;
   font-size: 16px;
