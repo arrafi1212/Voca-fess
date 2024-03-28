@@ -1,5 +1,9 @@
 .bg-about{
-    background-color: #57356a;
+    background-image: url("../../public/bg-terbaru.png");
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    width: auto;
     padding: 30px;
 }
 
@@ -34,6 +38,15 @@
 }
 
 @media (max-width: 768px){
+    .bg-about{
+        background-image: url("../../public/bg-terbaru.png");
+        background-size: cover;
+        background-repeat: repeat;
+        background-position: center;
+        width: auto;
+        padding: 30px;
+    }
+
     .About-pandora h1 {
         font-size: 2rem;
         text-align: center;

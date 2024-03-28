@@ -1,6 +1,10 @@
 /* mobile legend */
 .ml {
-  background-color: #8c739b;
+  background-image: url("../../public/bg-terbaru.png");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  width: auto;
   border: 10vh;
 }
 
@@ -22,7 +26,7 @@
 
 .ml h2 {
   text-align: center;
-  color:#8c739b; 
+  color:#ffff; 
 }
 
 /* INI UNTUK TANGGAL DAN TEMPAT */
@@ -44,7 +48,7 @@
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 10px; /* Atur margin antar baris */
-  color:#47275a;
+  color:#ffff;
 }
 
 .text-row span:first-child {
@@ -77,32 +81,8 @@
 .md h2 {
   text-align: center;
   margin-top: 60px;
-  color:#8c739b;
+  color:#ffff;
 }
-
-/* cosplay */
-.cp {
-  background-color: #e8751a;
-  border: 10vh;
-}
-
-.cp-nav {
-  background-image: url("../../public/COMP3.png");
-  background-size: cover;
-  background-position: center;
-  width: auto;
-}
-
-.lyr-dpn-cp {
-  width: 100%; /* Mengatur lebar box sesuai kebutuhan */
-  height: 60vh;
-}
-
-.cp h2 {
-  text-align: center;
-  margin-top: 60px;
-}
-
 /* INI UNTUK RULESNYA */
 .post-rules {
   background-color: #57356a;
@@ -112,7 +92,7 @@
   padding-bottom: 50px;
   margin-bottom: 60px;
   border-radius: 0 0 20px 20px;
-  color: #aa98b5;
+  color: #ffff;
 }
 
 .rls {
@@ -219,5 +199,84 @@ button:focus:not(:focus-visible) {
 
 
 .daftar h2{
-  color: #47275a;
+  color: #ffff;
+}
+
+@media(max-width: 1385px) {
+  .lyr-dpn-ml{
+    height: 45vh;
+  }
+
+  .lyr-dpn-md{
+    height: 45vh;
+  }
+}
+
+@media(max-width: 1195px) {
+  .lyr-dpn-ml{
+    height: 40vh;
+  }
+
+  .lyr-dpn-md{
+    height: 40vh;
+  }
+}
+
+@media(max-width: 1000px) {
+  .lyr-dpn-ml{
+    height: 35vh;
+  }
+
+  .lyr-dpn-md{
+    height: 35vh;
+  }
+}
+
+@media (max-width: 766px) {
+  .lyr-dpn-ml{
+    height: 25vh;
+  }
+
+  .lyr-dpn-md{
+    height: 25vh;
+  }
+}
+
+@media (max-width: 630px) {
+  
+}
+
+@media (max-width: 540px) {
+  
+}
+
+@media (max-width: 450px) {
+  .lyr-dpn-ml{
+    height: 13vh;
+  }
+
+  .lyr-dpn-md{
+    height: 13vh;
+  }
+
+  .rls h1{
+    font-size: 35px;
+  }
+
+  .rls h2{
+    font-size: 20px;
+  }
+
+  .rls p{
+    font-size: 15px;
+  }
+}
+
+
+@media (max-width: 375px) {
+  
+}
+
+@media (max-width: 280px) {
+  
 }

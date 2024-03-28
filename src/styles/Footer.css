@@ -79,10 +79,36 @@ ul li {
   text-align: center;
 }
 
+/* .account-footer {
+  text-align: center;
+} */
+
+.account-icons {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.account {
+  margin: 0 10px; /* Spasi antara ikon */
+}
+
+.logo-iconFoot {
+  width: 30px; /* Sesuaikan lebar ikon */
+  height: auto; /* Biarkan tinggi ikon disesuaikan secara otomatis */
+}
+
+/* .logo-iconFoot{
+  width: 28px;
+  height: auto;
+} */
+
 @media (max-width: 768px) {
   .footer-main {
     flex-direction: column;
     padding: 20px;
+    font-size: 14px;
+    padding-bottom: 0;
   }
   .account {
     justify-content: start;

@@ -5,8 +5,7 @@ import Footer from "./Footer.js";
 const Comp2 = () => {
   const handleButtonClick = () => {
     // Redirect to the Google Form URL when the button is clicked
-    window.location.href =
-      "https://docs.google.com/forms/d/e/1FAIpQLSe8A5pfiEDfJ_b4GxhjBHUcZ2HS3yN6K2IWZjlYOCsJ1SHvxg/viewform?usp=pp_url";
+    window.open("https://s.id/Modern_dance", "_blank");
   };
 
   return (

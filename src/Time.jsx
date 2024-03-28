@@ -90,7 +90,7 @@ const CountdownTimer = ({ endDate }) => {
     <div className="countdownTime">
       <h1>COUNTDOWN TIMER</h1>
       <p>
-        <span style={{ fontWeight: "bold", fontSize: "48px" , color: "#57356a"}}>
+        <span style={{ fontWeight: "bold", fontSize: "48px" , color: "white"}}>
           {timeInDays}:{timeInHours}:{timeInMinutes}:{timeInSeconds}
         </span>
       </p>

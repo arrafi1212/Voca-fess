@@ -5,7 +5,7 @@ import Footer from "./Footer.js";
 const Comp1 = () => {
   const handleButtonClick = () => {
     // Redirect to the Google Form URL when the button is clicked
-    window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSe8A5pfiEDfJ_b4GxhjBHUcZ2HS3yN6K2IWZjlYOCsJ1SHvxg/viewform?usp=pp_url';
+    window.open("https://s.id/mobile_legends", "_blank");
   };
 
   return (
@@ -99,7 +99,7 @@ const Comp1 = () => {
               <br></br> • Screenshoot lobi
               <br></br> • Screenshoot hasil pertandingan<br></br>
               <br></br>19. Peserta tim wajib sudah berlangganan
-              <br></br> • Instagram: @smk_ananda
+              <br></br> • Instagram: @smk_ananda @osissmkananda
               <br></br> • Youtube: @smk_ananda<br /><br />
             </p>
             <h2>D. JADWAL LOMBA</h2>
@@ -118,7 +118,7 @@ const Comp1 = () => {
               1.Pertandingan akan disiarkan secara Live Streaming di Youtube: @smk_ananda
               <br />
               <br />
-              2.Score game akan di publish di Instagram: @smk_ananda
+              2.Score game akan di publish di Instagram: @smk_ananda @osissmkananda
             </p>
           </div>
         </div>
@@ -129,11 +129,11 @@ const Comp1 = () => {
           <div className="container">
             <div className="text-row">
               <span>Biaya Pendaftaran :</span>
-              <span>-- Ribu</span>
+              <span>200 Ribu</span>
             </div>
             <div className="text-row">
               <span>WO/Jaminan :</span>
-              <span>-- Ribu</span>
+              <span>50 Ribu</span>
             </div>
             <button className="button-click" onClick={handleButtonClick}>
               <span class="shadow"></span>

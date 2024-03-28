@@ -1,5 +1,9 @@
 .all-page {
-  background-color: #57356a;
+  background-image: url("../../public/bg-terbaru.png");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  width: auto;
   padding-bottom: 60px;
 }
 

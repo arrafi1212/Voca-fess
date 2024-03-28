@@ -15,7 +15,12 @@ const Navbar = () => {
     <div>
       <nav className="">
         <div className="navbar-container">
-          <a href="/" className="logo-link">
+          <a
+            href="https://smk-ananda.sch.id/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="logo-link"
+          >
             <img src={logoSekolah} alt="Logo Icon" className="logo-icon" />
           </a>
           <button
