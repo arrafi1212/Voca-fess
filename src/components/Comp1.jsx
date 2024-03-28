@@ -22,8 +22,12 @@ const Comp1 = () => {
             <p>
               1. Peserta adalah kelompok yang terdiri dari 5 orang pemain utama
               dan 2 orang pemain cadangan yang telah memenuhi persyaratan
-              peserta.<br /><br />
-              2. Peserta adalah siswa SMP/SMA/SMK/MTs sederajat.<br /><br />
+              peserta.
+              <br />
+              <br />
+              2. Peserta adalah siswa SMP/SMA/SMK/MTs sederajat.
+              <br />
+              <br />
             </p>
             <h2>B. PERSYARATAN PESERTA</h2>
             <p>
@@ -46,7 +50,9 @@ const Comp1 = () => {
               lengkap pada saat mengisi link pendaftaran. <br />
               <br />
               6. Satu tim berisikan peserta peserta yang berasal dari sekolah
-              yang sama.<br /><br />
+              yang sama.
+              <br />
+              <br />
             </p>
             <h2>C. ATURAN LOMBA</h2>
             <p>
@@ -92,15 +98,30 @@ const Comp1 = () => {
               <br></br>17. Detail pelaksanaan per babak:
               <br></br> • Kualifikasi
               <br></br> • Babak 16 besar: Eliminasi
-              <br></br> • Semi Final (8 Besar): Best Off 3<br></br> • Final (4
-              Besar) :Best Off 3<br></br> • Grand Final : Best Off 5<br></br>
+              <div className="spacing-box">
+                <div className="spacing">
+                  <p>• Semi Final (8 Besar) </p>
+                  <p>: Best Off 3</p>
+                </div>
+                <div className="spacing">
+                  <p>• Final (4 Besar) </p>
+                  <p>: Best Off 3</p>
+                </div>
+                <div className="spacing">
+                  <p>• Grand Final </p>
+                  <p>: Best Off 5</p>
+                </div>
+                <br></br>
+              </div>
               <br></br>18. Perwakilan setiap tim wajib mengirimkan bukti
               Screenshoot
               <br></br> • Screenshoot lobi
               <br></br> • Screenshoot hasil pertandingan<br></br>
               <br></br>19. Peserta tim wajib sudah berlangganan
               <br></br> • Instagram: @smk_ananda @osissmkananda
-              <br></br> • Youtube: @smk_ananda<br /><br />
+              <br></br> • Youtube: @smk_ananda
+              <br />
+              <br />
             </p>
             <h2>D. JADWAL LOMBA</h2>
             <p>
@@ -111,14 +132,18 @@ const Comp1 = () => {
               5.Babak 16 besar<br></br>
               6.Semi Final<br></br>
               7.Grand Final<br></br>
-              8.Final<br /><br />
+              8.Final
+              <br />
+              <br />
             </p>
             <h2>E. DOKUMENTASI ACARA</h2>
             <p>
-              1.Pertandingan akan disiarkan secara Live Streaming di Youtube: @smk_ananda
+              1.Pertandingan akan disiarkan secara Live Streaming di Youtube:
+              @smk_ananda
               <br />
               <br />
-              2.Score game akan di publish di Instagram: @smk_ananda @osissmkananda
+              2.Score game akan di publish di Instagram: @smk_ananda
+              @osissmkananda
             </p>
           </div>
         </div>

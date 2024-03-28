@@ -18,9 +18,9 @@
   display: flex; /* Menggunakan flexbox */
   justify-content: center; /* Menengahkan isi secara horizontal */
   align-items: center; /* Menengahkan isi secara vertikal */
-  background-color: #FFD740;
+  background-color: #ffd740;
   border-radius: 20px;
-  padding: 50px;
+  padding: 30px 0px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -40,7 +40,7 @@
   animation: fadeIn 2s ease forwards;
 }
 
-.countdownTime h1{
+.countdownTime h1 {
   color: #ffffff;
 }
 
@@ -96,24 +96,35 @@
 }
 
 /* Jumbotron Section */
-.jumbotron {
-  background-image: url(../../public/logoJumbotronHome.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: auto;
-  background-position: center;
-  margin-bottom: 30px;
+.pandora {
+  width: 40vw;
 }
-.jumbotron-desc {
+.jumbotron {
+  margin-top: -50px;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+}
+.jumbo-img {
+  width: 100px;
+}
+.left-jumbo {
+  align-items: center;
+  display: flex;
+}
+.right-jumbo {
+  align-items: center;
+  display: flex;
+}
+.jumbo-image {
+  display: flex;
+  justify-content: space-between;
   align-items: start;
-  padding-top: 7rem;
-  padding-bottom: 12rem;
-  margin-left: 2.5rem;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .jumbo-button {
-  background-color: #FFD740;
+  background-color: #ffd740;
   color: #ffffff;
   padding: 15px 20px;
   border-radius: 5px;
@@ -121,6 +132,7 @@
   font-weight: bold;
 }
 
+/* Jumbotron Section */
 @keyframes eyeShade {
   0% {
     transform: translateY(0);
@@ -290,22 +302,36 @@
 }
 
 @media (max-width: 951px) {
-  .my-heading{
+  .my-heading {
     font-size: 70px !important;
   }
 }
 
 @media (max-width: 768px) {
+  .body-box {
+    border-radius: 0 !important;
+  }
+  .Time-box {
+    background-size: contain;
+  }
+  .pandora {
+    width: 80vw;
+    height: 36.35vw;
+  }
+  .logos {
+    width: 12vw;
+  }
+  .jumbotron {
+    height: auto;
+    margin-top: 20px;
+  }
   .my-heading {
     font-size: 50px !important;
     text-align: center !important;
     text-shadow: -1px -1px 0 black, 5px -1px 0 black, -1px 5px 0 black,
       5px 5px 0 black;
   }
-  .jumbotron {
-    background-image: url(../../public/logoJumbotronHome.png);
-    height: 55vh;
-  }
+
   .jumbotron-desc {
     margin-left: 0;
     align-items: center;
