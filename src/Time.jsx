@@ -88,9 +88,9 @@ const CountdownTimer = ({ endDate }) => {
 
   return (
     <div className="countdownTime">
-      <h1>COUNTDOWN TIMER</h1>
+      <h1 style={{color: "black"}}>COUNTDOWN TIMER</h1>
       <p>
-        <span style={{ fontWeight: "bold", fontSize: "48px" , color: "white"}}>
+        <span style={{ fontWeight: "bold", fontSize: "48px" , color: "black"}}>
           {timeInDays}:{timeInHours}:{timeInMinutes}:{timeInSeconds}
         </span>
       </p>
