@@ -26,7 +26,7 @@
 
 .ml h2 {
   text-align: center;
-  color:#ffff; 
+  color: #ffff;
 }
 
 /* INI UNTUK TANGGAL DAN TEMPAT */
@@ -48,7 +48,7 @@
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 10px; /* Atur margin antar baris */
-  color:#ffff;
+  color: #ffff;
 }
 
 .text-row span:first-child {
@@ -81,7 +81,7 @@
 .md h2 {
   text-align: center;
   margin-top: 60px;
-  color:#ffff;
+  color: #ffff;
 }
 /* INI UNTUK RULESNYA */
 .post-rules {
@@ -197,86 +197,109 @@ button:focus:not(:focus-visible) {
   outline: none;
 }
 
-
-.daftar h2{
+.daftar h2 {
   color: #ffff;
 }
 
-@media(max-width: 1385px) {
-  .lyr-dpn-ml{
+/* @media (max-width: 1991px) {
+  .lyr-dpn-ml {
+    height: 55vh;
+  }
+
+  .lyr-dpn-md {
+    height: 45vh;
+  }
+} */
+@media (max-width: 1385px) {
+  .lyr-dpn-ml {
     height: 45vh;
   }
 
-  .lyr-dpn-md{
+  .lyr-dpn-md {
     height: 45vh;
   }
 }
 
-@media(max-width: 1195px) {
-  .lyr-dpn-ml{
+@media (max-width: 1195px) {
+  .lyr-dpn-ml {
     height: 40vh;
   }
 
-  .lyr-dpn-md{
+  .lyr-dpn-md {
     height: 40vh;
   }
 }
 
-@media(max-width: 1000px) {
-  .lyr-dpn-ml{
+@media (max-width: 1000px) {
+  .lyr-dpn-ml {
     height: 35vh;
   }
 
-  .lyr-dpn-md{
+  .lyr-dpn-md {
     height: 35vh;
   }
 }
 
 @media (max-width: 766px) {
-  .lyr-dpn-ml{
+  .lyr-dpn-ml {
     height: 25vh;
   }
 
-  .lyr-dpn-md{
+  .lyr-dpn-md {
     height: 25vh;
+  }
+  .spacing-box {
+    width: 95% !important;
   }
 }
 
 @media (max-width: 630px) {
-  
 }
 
 @media (max-width: 540px) {
-  
 }
 
 @media (max-width: 450px) {
-  .lyr-dpn-ml{
+  .lyr-dpn-ml {
     height: 13vh;
   }
 
-  .lyr-dpn-md{
+  .lyr-dpn-md {
     height: 13vh;
   }
 
-  .rls h1{
+  .rls h1 {
     font-size: 35px;
   }
 
-  .rls h2{
+  .rls h2 {
     font-size: 20px;
   }
 
-  .rls p{
+  .rls p {
     font-size: 15px;
   }
 }
 
-
 @media (max-width: 375px) {
-  
+  .lyr-dpn-ml {
+    height: 15vh;
+  }
+
+  .lyr-dpn-md {
+    height: 25vh;
+  }
 }
 
 @media (max-width: 280px) {
-  
+}
+
+/* spacing ML */
+
+.spacing-box {
+  width: 20%;
+}
+.spacing {
+  display: flex;
+  justify-content: space-between;
 }
