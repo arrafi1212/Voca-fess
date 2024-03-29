@@ -98,7 +98,7 @@ const Rules = () => {
               <br></br> • Screenshoot lobi
               <br></br> • Screenshoot hasil pertandingan<br></br>
               <br></br>19. Peserta tim wajib sudah berlangganan
-              <br></br> • Instagram: @smk_ananda
+              <br></br> • Instagram: @smk_ananda @osissmkananda
               <br></br> • Youtube: @smk_ananda
               <br />
               <br />
@@ -122,6 +122,15 @@ const Rules = () => {
               @smk_ananda
               <br />
               2. Score game akan di publish di Instagram: @smk_ananda
+              @osissmkananda
+              <br></br>
+              <br></br>
+            </p>
+            <h3>Ketentuan Pemenang:</h3>
+            <p>
+              • Juara 1 : Rp. 1.500.000
+              <br></br>• Juara 2 : Rp. 1.000.000
+              <br></br>• Juara 3 : Rp. 750.000
             </p>
           </div>
           <div className="modern-d">

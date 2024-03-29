@@ -143,9 +143,15 @@ const Comp1 = () => {
               <br />
               <br />
               2.Score game akan di publish di Instagram: @smk_ananda
-              @osissmkananda
+              @osissmkananda <br></br><br></br>
             </p>
           </div>
+          <h3>Ketentuan Pemenang:</h3>
+          <p>
+              • Juara 1 : Rp. 1.500.000
+              <br></br>• Juara 2 : Rp. 1.000.000
+              <br></br>• Juara 3 : Rp. 750.000
+          </p>
         </div>
         <div className="daftar">
           <h2>PENDAFTARAN</h2>
