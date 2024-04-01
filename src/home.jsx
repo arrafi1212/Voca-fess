@@ -15,20 +15,9 @@ function Home() {
     <div>
       <div className="Time-box">
         <Navbar />
-        <div className="jumbo-image">
-          <div className="right-jumbo">
-            <Image
-              style={{ marginRight: "20px"}}
-              width={100}
-              src="logo pandora.png"
-              alt=""
-              className="logos"
-            />
-          </div>
-        </div>
         <div className="jumbotron">
           <Image
-            style={{ marginBottom: "50px" }}
+            style={{ marginBottom: "50px", marginTop: "70px"}}
             className="pandora"
             src="/logoJumbotronHome.png"
           />

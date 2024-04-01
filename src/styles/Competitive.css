@@ -1,7 +1,7 @@
 /* mobile legend */
 .ml {
   background-image: url("../../public/bg-terbaru.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: repeat;
   background-position: center;
   width: auto;
@@ -58,7 +58,11 @@
 
 /* modern dance */
 .md {
-  background-color: #8c739b;
+  background-image: url("../../public/bg-terbaru.png");
+  background-size: contain;
+  background-repeat: repeat;
+  background-position: center;
+  width: 100%;
   border: 10vh;
 }
 
