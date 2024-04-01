@@ -126,7 +126,7 @@ const Rules = () => {
               <br></br>
               <br></br>
             </p>
-            <h3>Ketentuan Pemenang:</h3>
+            <h3>F. HADIAH LOMBA</h3>
             <p>
               • Juara 1 : Rp. 1.500.000
               <br></br>• Juara 2 : Rp. 1.000.000
@@ -178,7 +178,7 @@ const Rules = () => {
               <br />
               <br />
             </p>
-            <h3>TECHNICAL MEETING</h3>
+            <h3>C. TECHNICAL MEETING</h3>
             <p>
               Sebelum perlombaan dilaksanakan, para peserta wajib mengikuti
               Technical Meeting yang diadakan oleh pihak panitia agar dapat
@@ -196,25 +196,15 @@ const Rules = () => {
               <br />
               <br />
             </p>
-            <h3>BIAYA</h3>
+            <h3>D. BIAYA</h3>
             <p>
               • Biaya Pendaftaran : 200 ribu
               <br></br>• WO/Jaminan : 50 ribu
               <br />
               <br />
             </p>
-            <h3>ASPEK PENILAIAN</h3>
-            <h4>Ketentuan Pemenang:</h4>
-            <p>
-              • Juara 1 : Rp. 1.000.000
-              <br></br>• Juara 2 : Rp. 750.000
-              <br></br>• Juara 3 : Rp. 500.000
-              <br></br>Juara Favorit (ditentukan dari like terbanyak pada video
-              MD yang diupload di IG SMK ANANDA BEKASI)
-              <br />
-              <br />
-            </p>
-            <h4>Penilaian dinilai dari :</h4>
+            <h3>E. ASPEK PENILAIAN</h3>
+            <h4>a. Penilaian dinilai dari :</h4>
             <p>
               • Sinkronisasi <br></br>• Keluwesan <br></br>• Power
               <br></br>• Ekspresi <br></br>• Kostum yang digunakan <br></br>•
@@ -222,10 +212,20 @@ const Rules = () => {
               <br />
               <br />
             </p>
-            <h4>Estimasi Waktu</h4>
+            <h4>b. Estimasi Waktu</h4>
             <p>
               Prepare: 1 menit/tim<br></br> Perform: 3-4 menit<br></br> Overall
               Time: 60 Menit
+              <br />
+              <br />
+            </p>
+            <h3>F. HADIAH LOMBA</h3>
+            <p>
+              • Juara 1 : Rp. 1.000.000
+              <br></br>• Juara 2 : Rp. 750.000
+              <br></br>• Juara 3 : Rp. 500.000
+              <br></br>Juara Favorit (ditentukan dari like terbanyak pada video
+              MD yang diupload di IG SMK ANANDA BEKASI)
             </p>
           </div>
         </div>

@@ -22,6 +22,7 @@ const Navbar = () => {
             className="logo-link"
           >
             <img src={logoSekolah} alt="Logo Icon" className="logo-icon" />
+            <img src="/logo pk.png" alt="Logo Icon" className="logo-pk1" />
           </a>
           <button
             className={`navbar-toggle ${isOpen ? "open" : ""}`}
@@ -45,6 +46,11 @@ const Navbar = () => {
             </li>
           </ul>
           <a href="/" className="logo-link1">
+            <img
+              src="logo oskanda.png"
+              alt="Logo Icon"
+              className="logo-oskanda1"
+            />
             <img src={logoIcon} alt="Logo Icon" className="logo-icon1" />
           </a>
         </div>

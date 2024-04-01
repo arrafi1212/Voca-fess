@@ -29,7 +29,8 @@ const Comp2 = () => {
               <br></br>
               3.Peserta wajib memberikan fotocopy kartu pelajar saat mendaftar
               ulang 4. Peserta menggunakan makeup dan kostum sendiri (tidak
-              disediakan dari pihak panitia)
+              disediakan dari pihak panitia)<br></br>
+              <br></br>
             </p>
             <h2>B. PERSYARATAN LOMBA</h2>
             <p>
@@ -55,9 +56,10 @@ const Comp2 = () => {
               7. Peserta diwajibkan datang tepat waktu saat lomba. Peserta akan
               dipanggil 3X untuk masuk ke dalam ruangan dan menampilkan
               performnya. Jika, peserta tidak maju, maka akan dianggap gugur/
-              DIDISKUALIFIKASI
+              DIDISKUALIFIKASI<br></br>
+              <br></br>
             </p>
-            <h2>TECHNICAL MEETING</h2>
+            <h2>C. TECHNICAL MEETING</h2>
             <p>
               Sebelum perlombaan dilaksanakan, para peserta wajib mengikuti
               Technical Meeting yang diadakan oleh pihak panitia agar dapat
@@ -71,17 +73,10 @@ const Comp2 = () => {
               <br></br>Para peserta yang tidak hadir/ikut dalam Technical
               Meeting, maka peserta dianggap sudah menerima dan akan mengikuti
               peraturan yang sudah diinformasikan dalam Technical Meeting
-              tersebut
+              tersebut<br></br>
+              <br></br>
             </p>
-            <h2>ASPEK PENILAIAN</h2>
-            <h3>Ketentuan Pemenang:</h3>
-            <p>
-              • Juara 1 : Rp. 1.000.000
-              <br></br>• Juara 2 : Rp. 750.000
-              <br></br>• Juara 3 : Rp. 500.000
-              <br></br>Juara Favorit (ditentukan dari like terbanyak pada video
-              MD yang diupload di IG SMK ANANDA BEKASI)
-            </p>
+            <h2>D. ASPEK PENILAIAN</h2>
             <h3>Penilaian dinilai dari :</h3>
             <p>
               • Sinkronisasi <br></br>• Keluwesan <br></br>• Power
@@ -91,7 +86,16 @@ const Comp2 = () => {
             <h3>Estimasi Waktu</h3>
             <p>
               Prepare: 1 menit/tim<br></br> Perform: 3-4 menit<br></br> Overall
-              Time: 60 Menit
+              Time: 60 Menit<br></br>
+              <br></br>
+            </p>
+            <h2>E. HADIAH LOMBA</h2>
+            <p>
+              • Juara 1 : Rp. 1.000.000
+              <br></br>• Juara 2 : Rp. 750.000
+              <br></br>• Juara 3 : Rp. 500.000
+              <br></br>Juara Favorit (ditentukan dari like terbanyak pada video
+              MD yang diupload di IG SMK ANANDA BEKASI)
             </p>
           </div>
         </div>

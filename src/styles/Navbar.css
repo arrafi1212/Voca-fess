@@ -16,6 +16,20 @@
   margin-left: 40px;
 }
 
+.logo-pk1{
+  width: 65px;
+  height: auto;
+  margin-left: 10px;
+}
+
+.logo-oskanda1{
+  width: 65px;
+  height: auto;
+  margin-right: 10px;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
 .logo-icon1 {
   width: 85px;
   height: auto;
@@ -25,6 +39,12 @@
 .logo-link {
   text-decoration: none;
   color: inherit;
+}
+
+.logo-link1 {
+  text-decoration: none;
+  color: inherit;
+  align-items: center;
 }
 
 .navbar-menu li:hover a {
@@ -80,6 +100,12 @@
     border-radius: 8px;
     position: absolute;
   }
+
+  .navbar-container{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
   .navbar-menu li {
     margin: 0;
     padding: 5px;
@@ -92,6 +118,23 @@
 
   .navbar-menu.open {
     display: flex;
+  }
+  .logo-icon{
+    width: 43px;
+    margin-left: 20px;
+  }
+  
+  .logo-pk1{
+    width: 53px;
+  }
+
+  .logo-oskanda1{
+    width: 43px;
+  }
+
+  .logo-icon1{
+    width: 63px;
+    margin-right: 20px;
   }
 }
 

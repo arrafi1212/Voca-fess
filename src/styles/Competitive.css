@@ -272,8 +272,17 @@ button:focus:not(:focus-visible) {
     font-size: 35px;
   }
 
+  .md h2{
+    margin-top: 0px;
+  }
+
   .rls h2 {
     font-size: 20px;
+    padding-bottom: 20px;
+  }
+
+  .rls h3{
+    font-size: 15px;
   }
 
   .rls p {
@@ -297,7 +306,7 @@ button:focus:not(:focus-visible) {
 /* spacing ML */
 
 .spacing-box {
-  width: 20%;
+  width: 30%;
 }
 .spacing {
   display: flex;
