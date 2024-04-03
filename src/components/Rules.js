@@ -196,14 +196,7 @@ const Rules = () => {
               <br />
               <br />
             </p>
-            <h3>D. BIAYA</h3>
-            <p>
-              • Biaya Pendaftaran : 200 ribu
-              <br></br>• WO/Jaminan : 50 ribu
-              <br />
-              <br />
-            </p>
-            <h3>E. ASPEK PENILAIAN</h3>
+            <h3>D. ASPEK PENILAIAN</h3>
             <h4>a. Penilaian dinilai dari :</h4>
             <p>
               • Sinkronisasi <br></br>• Keluwesan <br></br>• Power
@@ -219,7 +212,7 @@ const Rules = () => {
               <br />
               <br />
             </p>
-            <h3>F. HADIAH LOMBA</h3>
+            <h3>E. HADIAH LOMBA</h3>
             <p>
               • Juara 1 : Rp. 1.000.000
               <br></br>• Juara 2 : Rp. 750.000
