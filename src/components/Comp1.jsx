@@ -158,13 +158,9 @@ const Comp1 = () => {
         </div>
         <div className="page-center">
           <div className="container">
-            <div className="text-row">
+            <div className="text-row" style={{marginTop: "20px"}}>
               <span>Biaya Pendaftaran :</span>
-              <span>200 Ribu</span>
-            </div>
-            <div className="text-row">
-              <span>WO/Jaminan :</span>
-              <span>50 Ribu</span>
+              <span>150 Ribu</span>
             </div>
             <button className="button-click" onClick={handleButtonClick}>
               <span class="shadow"></span>
