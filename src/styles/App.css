@@ -343,10 +343,17 @@
     margin-left: 20px;
     margin-right: 20px;
   }
+  .sponsor{
+    font-size: 23px;
+  }
 }
 @media (max-width: 376px) {
   .jumbotron-desc {
     padding-top: 3rem;
+  }
+
+  .sponsor{
+    font-size: 23px;
   }
 }
 

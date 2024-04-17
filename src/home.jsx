@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 import { Image } from "react-bootstrap";
 
 function Home() {
-  const mySpecificDate = new Date(2024, 3, 19, 23, 59, 59, 0);
+  const mySpecificDate = new Date(2024, 3, 18, 23, 59, 59, 0);
   console.log(mySpecificDate);
   return (
     <div>
@@ -42,6 +42,16 @@ function Home() {
           <Card />
         </div>
         <Body />
+
+        <div className="sponsor" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+          <h1 style={{ fontSize: "48px", textAlign: "center", color: "white" }}>
+            OUR SPONSORSHIP
+          </h1>
+          <Image
+            style={{ marginBottom: "50px", marginTop: "70px", maxWidth: "200px", maxHeight: "200px" }}
+            src="/Logo-UBM.png"
+          />
+        </div>
       </div>
     </div>
   );

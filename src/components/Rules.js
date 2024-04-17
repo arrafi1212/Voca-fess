@@ -34,8 +34,7 @@ const Rules = () => {
               mengisi link g-form pendaftaran.
               <br />
               <br />
-              4. Peserta wajib membayar WO sebesar Rp.50.000 dan biaya
-              pendaftaran Rp.150.000.
+              4. Peserta wajib membayar biaya pendaftaran Rp.150.000.
               <br />
               <br />
               5. Peserta wajib melampirkan kartu pelajar, pas foto 3x4 dan nama
