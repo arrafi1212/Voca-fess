@@ -42,6 +42,10 @@ const Navbar = () => {
             </li>
 
             <li>
+              <a href="./Pertandingan">Contest</a>
+            </li>
+
+            <li>
               <a href="./AboutUs">About Us</a>
             </li>
           </ul>

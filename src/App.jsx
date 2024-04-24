@@ -12,6 +12,7 @@ import Navbar from "./components/Navbar.js";
 import Rules from "./components/Rules.js";
 import AboutUs from "./components/AboutUs.js";
 import Body from "./components/Body.js";
+import Pertandingan from "./components/Pertandingan.js"
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/Comp2" element={<Comp2 />} />
           <Route path="/Comp3" element={<Comp3 />} />
           <Route path="/Rules" element={<Rules />} />
+          <Route path="/Pertandingan" element={<Pertandingan />}/>
           <Route path="/AboutUs" element={<AboutUs />} />
         </Routes>
         <Footer />

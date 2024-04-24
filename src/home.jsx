@@ -47,10 +47,20 @@ function Home() {
           <h1 style={{ fontSize: "48px", textAlign: "center", color: "white" }}>
             OUR SPONSORSHIP
           </h1>
-          <Image
-            style={{ marginBottom: "50px", marginTop: "70px", maxWidth: "200px", maxHeight: "200px" }}
-            src="/Logo-UBM.png"
-          />
+          <div style={{justifyContent: "space-between", alignContent: "center"}}>
+            <Image
+              style={{ marginLeft:"100px", marginRight:"100px",marginBottom:"70px", maxWidth: "200px", maxHeight: "200px" }}
+              src="/LOGO-RADEN-MASTER_BLACK.png"
+            />
+            <Image
+              style={{ marginLeft:"100px", marginRight:"100px",marginBottom:"70px", maxWidth: "200px", maxHeight: "200px" }}
+              src="/Logo-UBM.png"
+            />
+            <Image
+              style={{ marginLeft:"100px", marginRight:"100px",marginBottom:"70px", maxWidth: "200px", maxHeight: "200px" }}
+              src="/LOGO-1a.png"
+            />
+          </div>
         </div>
       </div>
     </div>

@@ -1,0 +1,90 @@
+.tbl-bg{
+    background-image: url("../../public/bg-terbaru.png");
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    width: auto;
+    padding: 30px;
+}
+
+.tbl-competition {
+    background-color: #FFAB00;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+    margin: 60px;
+    padding: 30px;
+    padding-bottom: 200px;
+    border-radius: 30px;
+    overflow-x: auto;
+
+}
+
+table th {
+    font-weight: bold;
+    padding: 12px;
+    text-align: center;
+}
+table td {
+    padding: 12px;
+    text-align: left;
+}
+
+table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+    padding: 20px;
+  }
+
+tr:first-child {
+    background-color: rgb(255, 210, 138); /* Warna yang Anda inginkan */
+}
+
+.group1 tr:nth-child(2) td:nth-child(1) {
+    background-color: rgb(50, 245, 242);
+}
+.group1 tr:nth-child(3) td:nth-child(1) {
+    background-color: rgb(6, 246, 6);
+}
+
+.group2 tr:nth-child(2) td:nth-child(1) {
+    background-color: rgb(50, 245, 242);
+}
+.group2 tr:nth-child(3) td:nth-child(1) {
+    background-color: rgb(6, 246, 6);
+}
+
+.group3 tr:nth-child(2) td:nth-child(1) {
+    background-color: rgb(50, 245, 242);
+}
+.group3 tr:nth-child(3) td:nth-child(1) {
+    background-color: rgb(6, 246, 6);
+}
+
+.group4 tr:nth-child(2) td:nth-child(1) {
+    background-color: rgb(50, 245, 242);
+}
+.group4 tr:nth-child(3) td:nth-child(1) {
+    background-color: rgb(6, 246, 6);
+}
+
+.ket-table tr:nth-child(1) td:nth-child(1) {
+    background-color: rgb(50, 245, 242);
+}
+.ket-table tr:nth-child(2) td:nth-child(1) {
+    background-color: rgb(6, 246, 6);
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .tbl-competition {
+        margin: 10px; /* Ubah margin agar sesuai dengan tampilan pada layar kecil */
+        padding-bottom: 10px; /* Ubah padding-bottom agar sesuai dengan tampilan pada layar kecil */
+    }
+    table th {
+        font-size: 14px;
+    }
+    table td {
+        font-size: 14px;
+    }
+}
