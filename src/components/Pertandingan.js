@@ -11,7 +11,7 @@ const Pertandingan = () => {
         <div className="tbl-bg">
           <div className="tbl-competition">
             <h1 style={{ textAlign: "center", marginBottom: "25px" }}>
-              Klasemen Group
+              Klasemen Group Mobile Legend
             </h1>
             <h3>Group 1</h3>
             <table className="group1" style={{ marginBottom: "25px" }}>
@@ -355,7 +355,7 @@ const Pertandingan = () => {
               </tr>
             </table>
 
-            <h3>24-04-2024 (Perempat-Final)</h3>
+            <h3>24-04-2024 (Semi-Final)</h3>
             <table className="tanggal-24" style={{ marginBottom: "25px" }}>
               <tr>
                 <th></th>
@@ -394,28 +394,112 @@ const Pertandingan = () => {
                 <td>SMA Mutiara 17 Agustus</td>
                 <td>10.40-11.30 </td>
                 <td>GACORRR</td>
-                <td></td>
-                <td></td>
+                <td>1-0</td>
+                <td>SMA Mutiara 17 Agustus</td>
               </tr>
               <tr>
                 <td>Match V</td>
                 <td>SMA Mutiara 17 Agustus</td>
                 <td>11.30-12.20 </td>
                 <td>GACORRR</td>
-                <td></td>
-                <td></td>
+                <td>2-0</td>
+                <td>SMA Mutiara 17 Agustus</td>
               </tr>
               <tr>
                 <td>Match VI</td>
                 <td>SMA Mutiara 17 Agustus</td>
                 <td>13.00-13.50 </td>
                 <td>GACORRR</td>
-                <td></td>
-                <td></td>
+                <td>-</td>
+                <td>SMA Mutiara 17 Agustus</td>
               </tr>
               <tr>
                 <td>Match VII</td>
                 <td>SMP Ananda Team A</td>
+                <td>13.50-14.40 </td>
+                <td>SMA Mutiara 17 Agustus</td>
+                <td>1-0</td>
+                <td>SMP Ananda Team A</td>
+              </tr>
+              <tr>
+                <td>Match VIII</td>
+                <td>SMP Ananda Team A</td>
+                <td>14.40-15.30 </td>
+                <td>SMA Mutiara 17 Agustus</td>
+                <td>2-0</td>
+                <td>SMP Ananda Team A</td>
+              </tr>
+              <tr>
+                <td>Match IX</td>
+                <td>SMP Ananda Team A</td>
+                <td>15.30-16.20 </td>
+                <td>SMA Mutiara 17 Agustus</td>
+                <td>-</td>
+                <td>SMP Ananda Team A</td>
+              </tr>
+            </table>
+
+            <h3>25-04-2024 (Semi-Final)</h3>
+            <table className="tanggal-25" style={{ marginBottom: "25px" }}>
+              <tr>
+                <th></th>
+                <th>Nama Team</th>
+                <th>VS</th>
+                <th>Nama Team</th>
+                <th>Hasil Pertandingan</th>
+                <th>Juara</th>
+              </tr>
+              <tr>
+                <td>Match I</td>
+                <td>NGANTUK GUE</td>
+                <td>08.10-09.00 </td>
+                <td>ACL</td>
+                <td>1-0</td>
+                <td>NGANTUK GUE</td>
+              </tr>
+              <tr>
+                <td>Match II</td>
+                <td>NGANTUK GUE</td>
+                <td>09.00-09.50 </td>
+                <td>ACL</td>
+                <td>2-0</td>
+                <td>NGANTUK GUE</td>
+              </tr>
+              <tr>
+                <td>Match III</td>
+                <td>NGANTUK GUE</td>
+                <td>09.50-10.40 </td>
+                <td>ACL</td>
+                <td>-</td>
+                <td>NGANTUK GUE</td>
+              </tr>
+              <tr>
+                <td>Match IV</td>
+                <td>MANIPULATORS</td>
+                <td>10.40-11.30 </td>
+                <td>SMP ANANDA TEAM B</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Match V</td>
+                <td>MANIPULATORS</td>
+                <td>11.30-12.20 </td>
+                <td>SMP ANANDA TEAM B</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Match VI</td>
+                <td>MANIPULATORS</td>
+                <td>13.00-13.50 </td>
+                <td>SMP ANANDA TEAM B</td>
+                <td>-</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Match VII</td>
+                <td>NGANTUK GUE</td>
                 <td>13.50-14.40 </td>
                 <td></td>
                 <td></td>
@@ -423,7 +507,7 @@ const Pertandingan = () => {
               </tr>
               <tr>
                 <td>Match VIII</td>
-                <td>SMP Ananda Team A</td>
+                <td>NGANTUK GUE</td>
                 <td>14.40-15.30 </td>
                 <td></td>
                 <td></td>
@@ -431,7 +515,7 @@ const Pertandingan = () => {
               </tr>
               <tr>
                 <td>Match IX</td>
-                <td>SMP Ananda Team A</td>
+                <td>NGANTUK GUE</td>
                 <td>15.30-16.20 </td>
                 <td></td>
                 <td></td>
