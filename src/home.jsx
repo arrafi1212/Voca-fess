@@ -24,7 +24,8 @@ function Home() {
         </div>
         <div>
           <h1 className="title-comp" style={{ color: "white" }}>
-            ARE YOU READY FOR THE COMPETITION ?
+            {/* ARE YOU READY FOR THE COMPETITION ? */}
+            "See You In The Next Tournament&#128075;&#128075;"
           </h1>
           <div className="box">
             <p className="my-paragraph">
@@ -44,7 +45,7 @@ function Home() {
         <Body />
 
         <div className="sponsor" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-          <h1 style={{ fontSize: "48px", textAlign: "center", color: "white" }}>
+          <h1 style={{ fontSize: "48px", textAlign: "center", color: "white", margin:"35px" }}>
             OUR SPONSORSHIP
           </h1>
           <div style={{justifyContent: "space-between", alignContent: "center"}}>

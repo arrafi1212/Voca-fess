@@ -478,16 +478,16 @@ const Pertandingan = () => {
                 <td>MANIPULATORS</td>
                 <td>10.40-11.30 </td>
                 <td>SMP ANANDA TEAM B</td>
-                <td></td>
-                <td></td>
+                <td>1-0</td>
+                <td>MANIPULATORS</td>
               </tr>
               <tr>
                 <td>Match V</td>
                 <td>MANIPULATORS</td>
                 <td>11.30-12.20 </td>
                 <td>SMP ANANDA TEAM B</td>
-                <td></td>
-                <td></td>
+                <td>2-0</td>
+                <td>MANIPULATORS</td>
               </tr>
               <tr>
                 <td>Match VI</td>
@@ -495,31 +495,108 @@ const Pertandingan = () => {
                 <td>13.00-13.50 </td>
                 <td>SMP ANANDA TEAM B</td>
                 <td>-</td>
-                <td></td>
+                <td>MANIPULATORS</td>
               </tr>
               <tr>
                 <td>Match VII</td>
                 <td>NGANTUK GUE</td>
                 <td>13.50-14.40 </td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>MANIPULATORS</td>
+                <td>1-0</td>
+                <td>NGANTUK GUE</td>
               </tr>
               <tr>
                 <td>Match VIII</td>
                 <td>NGANTUK GUE</td>
                 <td>14.40-15.30 </td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>MANIPULATORS</td>
+                <td>1-1</td>
+                <td>MANIPULATORS</td>
               </tr>
               <tr>
                 <td>Match IX</td>
                 <td>NGANTUK GUE</td>
                 <td>15.30-16.20 </td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>MANIPULATORS</td>
+                <td>1-2</td>
+                <td>MANIPULATORS</td>
+              </tr>
+            </table>
+
+            <h3>26-04-2024 (Bronze Match)</h3>
+            <table className="tanggal-26" style={{ marginBottom: "25px" }}>
+              <tr>
+                <th>Nama Team</th>
+                <th>VS</th>
+                <th>Nama Team</th>
+                <th>Hasil Pertandingan</th>
+                <th>Juara</th>
+              </tr>
+              <tr>
+                <td className="tanding-bronze">SMA MUTIARA 17</td>
+                <td className="tanding-bronze-vs">VS</td>
+                <td className="tanding-bronze">NGANTUK GUE </td>
+                <td className="tanding-bronze-skor">1-0</td>
+                <td className="tanding-bronze-win">SMA MUTIARA 17</td>
+              </tr>
+              <tr>
+                <td className="tanding-bronze">SMA MUTIARA 17</td>
+                <td className="tanding-bronze-vs">VS</td>
+                <td className="tanding-bronze">NGANTUK GUE </td>
+                <td className="tanding-bronze-skor">2-0</td>
+                <td className="tanding-bronze-win">SMA MUTIARA 17</td>
+              </tr>
+            </table>
+
+            <h3>26-04-2024 (Final Match)</h3>
+            <table className="tanggal-26" style={{ marginBottom: "25px" }}>
+              <tr>
+                <th>Nama Team</th>
+                <th>VS</th>
+                <th>Nama Team</th>
+                <th>Hasil Pertandingan</th>
+                <th>Juara</th>
+              </tr>
+              <tr>
+                <td className="tanding-bronze">SMP ANANDA TEAM A</td>
+                <td className="tanding-bronze-vs">VS</td>
+                <td className="tanding-bronze">MANIPULATORS</td>
+                <td className="tanding-bronze-skor">0-1</td>
+                <td className="tanding-bronze-final">MANIPULATORS</td>
+              </tr>
+              <tr>
+                <td className="tanding-bronze">SMP ANANDA TEAM A</td>
+                <td className="tanding-bronze-vs">VS</td>
+                <td className="tanding-bronze">MANIPULATORS</td>
+                <td className="tanding-bronze-skor">0-2</td>
+                <td className="tanding-bronze-final">MANIPULATORS</td>
+              </tr>
+              <tr>
+                <td className="tanding-bronze">SMP ANANDA TEAM A</td>
+                <td className="tanding-bronze-vs">VS</td>
+                <td className="tanding-bronze">MANIPULATORS</td>
+                <td className="tanding-bronze-skor">1-2</td>
+                <td className="tanding-bronze-final">SMP ANANDA TEAM A</td>
+              </tr>
+              <tr>
+                <td className="tanding-bronze">SMP ANANDA TEAM A</td>
+                <td className="tanding-bronze-vs">VS</td>
+                <td className="tanding-bronze">MANIPULATORS</td>
+                <td className="tanding-bronze-skor">1-3</td>
+                <td className="tanding-bronze-final">MANIPULATORS &#129351;</td>
+              </tr>
+            </table>
+
+            <h3>FINAL SKOR</h3>
+            <table className="tanggal-26" style={{ marginBottom: "25px" }}>
+              <tr>
+                <td className="final-1">MANIPULATORS&#129351;</td>
+              </tr>
+              <tr>
+                <td className="final-2">SMP ANANDA TEAM A&#129352;</td>
+              </tr>
+              <tr>
+                <td className="final-3">SMA MUTIARA 17&#129353;</td>
               </tr>
             </table>
           </div>

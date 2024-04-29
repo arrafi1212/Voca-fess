@@ -29,6 +29,29 @@ const pageUs = () => {
               Dengan harapan, kita mampu melihat jalan keluar dari kesulitan dan
               menuju kepada kesuksesan serta kebahagiaan yang kita dambakan.
             </p>
+            <div className="maps">
+              <h1 style={{ textAlign: "center", marginTop: "25px" }}>
+                Location
+              </h1>
+              <h3>(Lokasi tepatnya di SMK Ananda Bekasi)</h3>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3589.2326699158284!2d107.01927857453134!3d-6.233222561040469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698e9652540235%3A0xb2a0314f822c2de3!2sSEKOLAH%20ANANDA%20BEKASI!5e1!3m2!1sid!2sid!4v1714357379034!5m2!1sid!2sid"
+                  width="900"
+                  height="450"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  style={{ border: 0 }}
+                ></iframe>
+              </div>
+            </div>
           </div>
         </div>
       </div>

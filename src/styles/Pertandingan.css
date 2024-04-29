@@ -72,6 +72,31 @@ tr:first-child {
 .ket-table tr:nth-child(2) td:nth-child(1) {
     background-color: rgb(6, 246, 6);
 }
+.tanding-bronze{
+    background-color: rgb(97, 255, 97);
+}
+.tanding-bronze-vs{
+    background-color: rgb(255, 0, 0);
+}
+.tanding-bronze-skor{
+    background-color: rgb(255, 0, 0);
+}
+.tanding-bronze-win{
+    background-color: rgb(205, 127, 50);
+}
+.tanding-bronze-final{
+    background-color: rgb(255, 215, 0);
+}
+
+.final-1{
+    background-color: rgb(255, 215, 0);
+}
+.final-2{
+    background-color: rgb(192, 192, 192);
+}
+.final-3{
+    background-color: rgb(205, 127, 50);
+}
 
 
 
