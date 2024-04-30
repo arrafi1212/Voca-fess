@@ -38,33 +38,6 @@ tr:first-child {
     background-color: rgb(255, 210, 138); /* Warna yang Anda inginkan */
 }
 
-.group1 tr:nth-child(2) td:nth-child(1) {
-    background-color: rgb(50, 245, 242);
-}
-.group1 tr:nth-child(3) td:nth-child(1) {
-    background-color: rgb(6, 246, 6);
-}
-
-.group2 tr:nth-child(2) td:nth-child(1) {
-    background-color: rgb(50, 245, 242);
-}
-.group2 tr:nth-child(3) td:nth-child(1) {
-    background-color: rgb(6, 246, 6);
-}
-
-.group3 tr:nth-child(2) td:nth-child(1) {
-    background-color: rgb(50, 245, 242);
-}
-.group3 tr:nth-child(3) td:nth-child(1) {
-    background-color: rgb(6, 246, 6);
-}
-
-.group4 tr:nth-child(2) td:nth-child(1) {
-    background-color: rgb(50, 245, 242);
-}
-.group4 tr:nth-child(3) td:nth-child(1) {
-    background-color: rgb(6, 246, 6);
-}
 
 .ket-table tr:nth-child(1) td:nth-child(1) {
     background-color: rgb(50, 245, 242);
@@ -97,8 +70,20 @@ tr:first-child {
 .final-3{
     background-color: rgb(205, 127, 50);
 }
-
-
+.skor-modern-dance {
+    border-collapse: collapse;
+  }
+  
+  /* Warna latar belakang baris ganjil */
+  .skor-modern-dance tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Warna latar belakang baris genap */
+  .skor-modern-dance tbody tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+  
 
 
 @media screen and (max-width: 600px) {

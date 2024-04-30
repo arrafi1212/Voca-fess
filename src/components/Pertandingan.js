@@ -23,7 +23,7 @@ const Pertandingan = () => {
                 <th>Total Kill</th>
                 <th>Point</th>
               </tr>
-              <tr>
+              <tr style={{ backgroundColor: "rgb(50, 245, 242)" }}>
                 <td>SMP Ananda Team A</td>
                 <td>3</td>
                 <td>3</td>
@@ -31,7 +31,7 @@ const Pertandingan = () => {
                 <td>65</td>
                 <td>9</td>
               </tr>
-              <tr>
+              <tr style={{ backgroundColor: "rgb(6, 246, 6)" }}>
                 <td>Gacorrr</td>
                 <td>3</td>
                 <td>2</td>
@@ -66,7 +66,7 @@ const Pertandingan = () => {
                 <th>Total Kill</th>
                 <th>Point</th>
               </tr>
-              <tr>
+              <tr style={{ backgroundColor: "rgb(50, 245, 242)" }}>
                 <td>SMA Mutiara 17</td>
                 <td>2</td>
                 <td>2</td>
@@ -74,7 +74,7 @@ const Pertandingan = () => {
                 <td>38</td>
                 <td>6</td>
               </tr>
-              <tr>
+              <tr style={{ backgroundColor: "rgb(6, 246, 6)" }}>
                 <td>Cucu Zeus</td>
                 <td>2</td>
                 <td>1</td>
@@ -101,7 +101,7 @@ const Pertandingan = () => {
                 <th>Total Kill</th>
                 <th>Point</th>
               </tr>
-              <tr>
+              <tr style={{ backgroundColor: "rgb(50, 245, 242)" }}>
                 <td>Ngantuk Gue</td>
                 <td>3</td>
                 <td>3</td>
@@ -109,7 +109,7 @@ const Pertandingan = () => {
                 <td>39</td>
                 <td>9</td>
               </tr>
-              <tr>
+              <tr style={{ backgroundColor: "rgb(6, 246, 6)" }}>
                 <td>SMP Ananda Team B</td>
                 <td>3</td>
                 <td>2</td>
@@ -144,7 +144,7 @@ const Pertandingan = () => {
                 <th>Total Kill</th>
                 <th>Point</th>
               </tr>
-              <tr>
+              <tr style={{ backgroundColor: "rgb(50, 245, 242)" }}>
                 <td>Manipulators</td>
                 <td>2</td>
                 <td>2</td>
@@ -152,7 +152,7 @@ const Pertandingan = () => {
                 <td>49</td>
                 <td>6</td>
               </tr>
-              <tr>
+              <tr style={{ backgroundColor: "rgb(6, 246, 6)" }}>
                 <td>ACL</td>
                 <td>2</td>
                 <td>1</td>
@@ -188,7 +188,10 @@ const Pertandingan = () => {
             </h1>
 
             <h3>22-04-2024</h3>
-            <table className="tanggal-22" style={{ marginBottom: "25px" }}>
+            <table
+              className="tanggal-22"
+              style={{ marginBottom: "25px", backgroundColor: "#cfd8dc" }}
+            >
               <tr>
                 <th></th>
                 <th>Nama Team</th>
@@ -272,7 +275,10 @@ const Pertandingan = () => {
             </table>
 
             <h3>23-04-2024</h3>
-            <table className="tanggal-23" style={{ marginBottom: "25px" }}>
+            <table
+              className="tanggal-23"
+              style={{ marginBottom: "25px", backgroundColor: "#cfd8dc" }}
+            >
               <tr>
                 <th></th>
                 <th>Nama Team</th>
@@ -356,13 +362,16 @@ const Pertandingan = () => {
             </table>
 
             <h3>24-04-2024 (Semi-Final)</h3>
-            <table className="tanggal-24" style={{ marginBottom: "25px" }}>
+            <table
+              className="tanggal-24"
+              style={{ marginBottom: "25px", backgroundColor: "#cfd8dc" }}
+            >
               <tr>
                 <th></th>
                 <th>Nama Team</th>
                 <th>VS</th>
                 <th>Nama Team</th>
-                <th>Hasil Pertandingan</th>
+                <th>Skor</th>
                 <th>Juara</th>
               </tr>
               <tr>
@@ -387,37 +396,37 @@ const Pertandingan = () => {
                 <td>09.50-10.40 </td>
                 <td>CUCU ZEUS</td>
                 <td>-</td>
-                <td>SMP Ananda Team A</td>
+                <td>SMP Ananda Team A&#127942;</td>
               </tr>
               <tr>
                 <td>Match IV</td>
-                <td>SMA Mutiara 17 Agustus</td>
+                <td>SMA Mutiara 17</td>
                 <td>10.40-11.30 </td>
                 <td>GACORRR</td>
                 <td>1-0</td>
-                <td>SMA Mutiara 17 Agustus</td>
+                <td>SMA Mutiara 17</td>
               </tr>
               <tr>
                 <td>Match V</td>
-                <td>SMA Mutiara 17 Agustus</td>
+                <td>SMA Mutiara 17</td>
                 <td>11.30-12.20 </td>
                 <td>GACORRR</td>
                 <td>2-0</td>
-                <td>SMA Mutiara 17 Agustus</td>
+                <td>SMA Mutiara 17</td>
               </tr>
               <tr>
                 <td>Match VI</td>
-                <td>SMA Mutiara 17 Agustus</td>
+                <td>SMA Mutiara 17</td>
                 <td>13.00-13.50 </td>
                 <td>GACORRR</td>
                 <td>-</td>
-                <td>SMA Mutiara 17 Agustus</td>
+                <td>SMA Mutiara 17&#127942;</td>
               </tr>
               <tr>
                 <td>Match VII</td>
                 <td>SMP Ananda Team A</td>
                 <td>13.50-14.40 </td>
-                <td>SMA Mutiara 17 Agustus</td>
+                <td>SMA Mutiara 17</td>
                 <td>1-0</td>
                 <td>SMP Ananda Team A</td>
               </tr>
@@ -425,7 +434,7 @@ const Pertandingan = () => {
                 <td>Match VIII</td>
                 <td>SMP Ananda Team A</td>
                 <td>14.40-15.30 </td>
-                <td>SMA Mutiara 17 Agustus</td>
+                <td>SMA Mutiara 17</td>
                 <td>2-0</td>
                 <td>SMP Ananda Team A</td>
               </tr>
@@ -433,20 +442,23 @@ const Pertandingan = () => {
                 <td>Match IX</td>
                 <td>SMP Ananda Team A</td>
                 <td>15.30-16.20 </td>
-                <td>SMA Mutiara 17 Agustus</td>
+                <td>SMA Mutiara 17</td>
                 <td>-</td>
-                <td>SMP Ananda Team A</td>
+                <td>SMP Ananda Team A&#127942;</td>
               </tr>
             </table>
 
             <h3>25-04-2024 (Semi-Final)</h3>
-            <table className="tanggal-25" style={{ marginBottom: "25px" }}>
+            <table
+              className="tanggal-25"
+              style={{ marginBottom: "25px", backgroundColor: "#cfd8dc" }}
+            >
               <tr>
                 <th></th>
                 <th>Nama Team</th>
                 <th>VS</th>
                 <th>Nama Team</th>
-                <th>Hasil Pertandingan</th>
+                <th>Skor</th>
                 <th>Juara</th>
               </tr>
               <tr>
@@ -471,7 +483,7 @@ const Pertandingan = () => {
                 <td>09.50-10.40 </td>
                 <td>ACL</td>
                 <td>-</td>
-                <td>NGANTUK GUE</td>
+                <td>NGANTUK GUE&#127942;</td>
               </tr>
               <tr>
                 <td>Match IV</td>
@@ -495,7 +507,7 @@ const Pertandingan = () => {
                 <td>13.00-13.50 </td>
                 <td>SMP ANANDA TEAM B</td>
                 <td>-</td>
-                <td>MANIPULATORS</td>
+                <td>MANIPULATORS&#127942;</td>
               </tr>
               <tr>
                 <td>Match VII</td>
@@ -519,7 +531,7 @@ const Pertandingan = () => {
                 <td>15.30-16.20 </td>
                 <td>MANIPULATORS</td>
                 <td>1-2</td>
-                <td>MANIPULATORS</td>
+                <td>MANIPULATORS&#127942;</td>
               </tr>
             </table>
 
@@ -529,7 +541,7 @@ const Pertandingan = () => {
                 <th>Nama Team</th>
                 <th>VS</th>
                 <th>Nama Team</th>
-                <th>Hasil Pertandingan</th>
+                <th>Skor</th>
                 <th>Juara</th>
               </tr>
               <tr>
@@ -546,6 +558,13 @@ const Pertandingan = () => {
                 <td className="tanding-bronze-skor">2-0</td>
                 <td className="tanding-bronze-win">SMA MUTIARA 17</td>
               </tr>
+              <tr>
+                <td className="tanding-bronze">SMA MUTIARA 17</td>
+                <td className="tanding-bronze-vs">VS</td>
+                <td className="tanding-bronze">NGANTUK GUE </td>
+                <td className="tanding-bronze-skor">-</td>
+                <td className="tanding-bronze-win">SMA MUTIARA 17&#129353;</td>
+              </tr>
             </table>
 
             <h3>26-04-2024 (Final Match)</h3>
@@ -554,7 +573,7 @@ const Pertandingan = () => {
                 <th>Nama Team</th>
                 <th>VS</th>
                 <th>Nama Team</th>
-                <th>Hasil Pertandingan</th>
+                <th>Skor</th>
                 <th>Juara</th>
               </tr>
               <tr>
@@ -576,7 +595,9 @@ const Pertandingan = () => {
                 <td className="tanding-bronze-vs">VS</td>
                 <td className="tanding-bronze">MANIPULATORS</td>
                 <td className="tanding-bronze-skor">1-2</td>
-                <td className="tanding-bronze-final">SMP ANANDA TEAM A</td>
+                <td className="tanding-bronze-final">
+                  SMP ANANDA TEAM A&#129352;
+                </td>
               </tr>
               <tr>
                 <td className="tanding-bronze">SMP ANANDA TEAM A</td>
@@ -597,6 +618,48 @@ const Pertandingan = () => {
               </tr>
               <tr>
                 <td className="final-3">SMA MUTIARA 17&#129353;</td>
+              </tr>
+            </table>
+
+            {/* HASIL MODERN DANCE */}
+            <h1 style={{ textAlign: "center", marginBottom: "25px" }}>
+              Hasil Modern Dance
+            </h1>
+            <table
+              className="skor-modern-dance"
+              style={{ backgroundColor: "#cfd8dc" }}
+            >
+              <tr>
+                <th style={{ width: "70%" }}>Nama Tim</th>
+                <th>Total Poin</th>
+              </tr>
+              <tr>
+                <td>Rookie Monster</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>CGLOZZ</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Werestep</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Feybold</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Illusion</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Para pencari nafkah</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>PEARL</td>
+                <td></td>
               </tr>
             </table>
           </div>
