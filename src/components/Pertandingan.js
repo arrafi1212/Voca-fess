@@ -1,7 +1,33 @@
+import React, { useState, useEffect } from "react";
 import "../styles/Pertandingan.css";
 import Navbar from "./Navbar.js";
 
 const Pertandingan = () => {
+  const [isVisible, setIsVisible] = useState(false);
+
+  const toggleVisibility = () => {
+    if (window.pageYOffset > 100) {
+      setIsVisible(true);
+    } else {
+      setIsVisible(false);
+    }
+  };
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", toggleVisibility);
+
+    return () => {
+      window.removeEventListener("scroll", toggleVisibility);
+    };
+  }, []);
+
   return (
     <div>
       <div className="page-us">
@@ -10,6 +36,11 @@ const Pertandingan = () => {
         </div>
         <div className="tbl-bg">
           <div className="tbl-competition">
+            <div className={`scroll-to-top ${isVisible ? "visible" : ""}`}>
+              <button onClick={scrollToTop} title="Go to top">
+                &#8593;
+              </button>
+            </div>
             <h1 style={{ textAlign: "center", marginBottom: "25px" }}>
               Klasemen Group Mobile Legend
             </h1>

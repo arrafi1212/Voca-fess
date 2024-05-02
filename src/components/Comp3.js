@@ -1,14 +1,45 @@
+import React, { useState, useEffect } from "react";
 import "../styles/Competitive.css";
 import Navbar from "./Navbar.js";
 import Footer from "./Footer.js";
 
 const Comp3 = () => {
+  const [isVisible, setIsVisible] = useState(false);
+
+  const toggleVisibility = () => {
+    if (window.pageYOffset > 100) {
+      setIsVisible(true);
+    } else {
+      setIsVisible(false);
+    }
+  };
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", toggleVisibility);
+
+    return () => {
+      window.removeEventListener("scroll", toggleVisibility);
+    };
+  }, []);
+
   return (
     <div>
       <div className="cp">
         <div className="cp-nav">
           <Navbar />
           <div className="lyr-dpn-cp"></div>
+        </div>
+        <div className={`scroll-to-top ${isVisible ? "visible" : ""}`}>
+          <button onClick={scrollToTop} title="Go to top">
+            &#8593;
+          </button>
         </div>
         <div className="post-rules">
           <div className="rls">

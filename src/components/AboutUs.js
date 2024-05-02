@@ -1,7 +1,33 @@
+import React, { useState, useEffect } from "react";
 import "../styles/AboutUs.css";
 import Navbar from "./Navbar.js";
 
-const pageUs = () => {
+const PageUs = () => {
+  const [isVisible, setIsVisible] = useState(false);
+
+  const toggleVisibility = () => {
+    if (window.pageYOffset > 20) {
+      setIsVisible(true);
+    } else {
+      setIsVisible(false);
+    }
+  };
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", toggleVisibility);
+
+    return () => {
+      window.removeEventListener("scroll", toggleVisibility);
+    };
+  }, []);
+
   return (
     <div>
       <div className="page-us">
@@ -10,6 +36,11 @@ const pageUs = () => {
         </div>
         <div className="bg-about">
           <div className="About-pandora">
+            <div className={`scroll-to-top ${isVisible ? "visible" : ""}`}>
+              <button onClick={scrollToTop} title="Go to top">
+                &#8593;
+              </button>
+            </div>
             <h1>PANDORA</h1>
             <h3>(Play And Dance in Non-academic Raise)</h3>
             <p>
@@ -59,4 +90,4 @@ const pageUs = () => {
   );
 };
 
-export default pageUs;
+export default PageUs;

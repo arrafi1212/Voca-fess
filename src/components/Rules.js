@@ -1,12 +1,43 @@
+import React, { useState, useEffect } from "react";
 import "../styles/Rules.css";
 import Navbar from "./Navbar.js";
 
 const Rules = () => {
+  const [isVisible, setIsVisible] = useState(false);
+
+  const toggleVisibility = () => {
+    if (window.pageYOffset > 100) {
+      setIsVisible(true);
+    } else {
+      setIsVisible(false);
+    }
+  };
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", toggleVisibility);
+
+    return () => {
+      window.removeEventListener("scroll", toggleVisibility);
+    };
+  }, []);
+
   return (
     <div>
       <div className="all-page">
         <div className="navbar-rls">
           <Navbar />
+        </div>
+        <div className={`scroll-to-top ${isVisible ? "visible" : ""}`}>
+          <button onClick={scrollToTop} title="Go to top">
+            &#8593;
+          </button>
         </div>
         <div className="box-rules">
           <div className="mobile-l">

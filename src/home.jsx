@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect  } from "react";
 import "./styles/App.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -11,9 +11,40 @@ import { Image } from "react-bootstrap";
 function Home() {
   const mySpecificDate = new Date(2024, 4, 18, 15, 5, 0, 0);
   console.log(mySpecificDate);
+
+  const [isVisible, setIsVisible] = useState(false);
+
+  const toggleVisibility = () => {
+    if (window.pageYOffset > 100) {
+      setIsVisible(true);
+    } else {
+      setIsVisible(false);
+    }
+  };
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', toggleVisibility);
+
+    return () => {
+      window.removeEventListener('scroll', toggleVisibility);
+    };
+  }, []);
+  
   return (
     <div>
       <div className="Time-box">
+        <div className={`scroll-to-top ${isVisible ? 'visible' : ''}`}>
+          <button onClick={scrollToTop} title="Go to top">
+            &#8593;
+          </button>
+        </div>
         <Navbar />
         <div className="jumbotron">
           <Image
@@ -44,23 +75,35 @@ function Home() {
         </div>
         <Body />
 
-        <div className="sponsor" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-          <h1 style={{ fontSize: "48px", textAlign: "center", color: "white", margin:"35px" }}>
+        <div className="sponsor">
+          <h1 style={{ fontSize: "48px", textAlign: "center", color: "white", marginBottom: "25px" }}>
             OUR SPONSORSHIP
           </h1>
-          <div style={{justifyContent: "space-between", alignContent: "center"}}>
-            <Image
-              style={{ marginLeft:"100px", marginRight:"100px",marginBottom:"70px", maxWidth: "200px", maxHeight: "200px" }}
-              src="/LOGO-RADEN-MASTER_BLACK.png"
-            />
-            <Image
-              style={{ marginLeft:"100px", marginRight:"100px",marginBottom:"70px", maxWidth: "200px", maxHeight: "200px" }}
-              src="/Logo-UBM.png"
-            />
-            <Image
-              style={{ marginLeft:"100px", marginRight:"100px",marginBottom:"70px", maxWidth: "200px", maxHeight: "200px" }}
-              src="/LOGO-1a.png"
-            />
+          <div className="sponsor-logos">
+            <div className="sponsor1">
+              <Image
+                src="/LOGO-RADEN-MASTER_BLACK.png"
+                alt="Raden Master"
+                style={{
+                  width:"80%"
+                }}
+              />
+            </div>
+            <div className="sponsor2">
+              <Image
+                src="/Logo-UBM.png"
+                alt="UBM"
+                style={{
+                  width:"100%"
+                }}
+              />
+            </div>
+            <div className="sponsor3">
+              <Image
+                src="/LOGO-1a.png"
+                alt="Logo 1a"
+              />
+            </div>
           </div>
         </div>
       </div>

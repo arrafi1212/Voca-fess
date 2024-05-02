@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./styles/App.css";
 
 const CountdownTimer = ({ endDate }) => {
-  const timeNow = new Date();
+    const timeNow = new Date();
 
   // Menghitung selisih waktu antara endDate dan timeNow
   const timeDiff = endDate.getTime() - timeNow.getTime();
@@ -11,8 +11,14 @@ const CountdownTimer = ({ endDate }) => {
   const minutesLeft = Math.max(Math.floor((timeDiff / (1000 * 60)) % 60), 0);
   const hoursLeft = Math.max(Math.floor((timeDiff / (1000 * 60 * 60)) % 24), 0);
   const daysLeft = Math.max(Math.floor(timeDiff / (1000 * 60 * 60 * 24)), 0);
+  const weeksLeft = Math.max(Math.floor(daysLeft / 7), 0);
+  const monthsLeft = Math.max(Math.floor(daysLeft / 30), 0);
+  const yearsLeft = Math.max(Math.floor(daysLeft / 365), 0);
 
   // State untuk menyimpan waktu yang tersisa
+  const [timeInYears, setTimeInYears] = useState(yearsLeft);
+  const [timeInMonths, setTimeInMonths] = useState(monthsLeft);
+  const [timeInWeeks, setTimeInWeeks] = useState(weeksLeft);
   const [timeInDays, setTimeInDays] = useState(daysLeft);
   const [timeInHours, setTimeInHours] = useState(hoursLeft);
   const [timeInMinutes, setTimeInMinutes] = useState(minutesLeft);
@@ -24,22 +30,19 @@ const CountdownTimer = ({ endDate }) => {
       const currentTime = new Date();
       const timeDiff = endDate.getTime() - currentTime.getTime();
 
-      // Menghitung waktu yang tersisa dalam hari, jam, menit, detik
+      // Menghitung waktu yang tersisa dalam minggu, bulan, tahun, hari, jam, menit, detik
       const secondsLeft = Math.max(Math.floor((timeDiff / 1000) % 60), 0);
-      const minutesLeft = Math.max(
-        Math.floor((timeDiff / (1000 * 60)) % 60),
-        0
-      );
-      const hoursLeft = Math.max(
-        Math.floor((timeDiff / (1000 * 60 * 60)) % 24),
-        0
-      );
-      const daysLeft = Math.max(
-        Math.floor(timeDiff / (1000 * 60 * 60 * 24)),
-        0
-      );
+      const minutesLeft = Math.max(Math.floor((timeDiff / (1000 * 60)) % 60), 0);
+      const hoursLeft = Math.max(Math.floor((timeDiff / (1000 * 60 * 60)) % 24), 0);
+      const daysLeft = Math.max(Math.floor(timeDiff / (1000 * 60 * 60 * 24)), 0);
+      const weeksLeft = Math.max(Math.floor(daysLeft / 7), 0);
+      const monthsLeft = Math.max(Math.floor(daysLeft / 30), 0);
+      const yearsLeft = Math.max(Math.floor(daysLeft / 365), 0);
 
       // Update state dengan waktu yang tersisa
+      setTimeInYears(yearsLeft);
+      setTimeInMonths(monthsLeft);
+      setTimeInWeeks(weeksLeft);
       setTimeInDays(daysLeft);
       setTimeInHours(hoursLeft);
       setTimeInMinutes(minutesLeft);
